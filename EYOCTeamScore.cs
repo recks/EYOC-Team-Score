@@ -231,6 +231,20 @@ namespace EYOC_Team_Score
             }
         }
 
+        private void ExportFile_Click(object sender, EventArgs e)
+        {
+            if (exportTeamScoresIndividualDialog.ShowDialog() == DialogResult.OK)
+            {
+                var filename = exportTeamScoresIndividualDialog.FileName;
+                File.WriteAllText(filename, htmlPanel_Individual.Text);
+            }
+            if (exportTeamScoresTotalDialog.ShowDialog() == DialogResult.OK)
+            {
+                var filename = exportTeamScoresTotalDialog.FileName;
+                File.WriteAllText(filename, htmlPanel_Total.Text);
+            }
+        }
+
         private void btn_CalculateTeamScores_Click(object sender, EventArgs e)
         {
             calculateTeamScores();
@@ -263,16 +277,5 @@ namespace EYOC_Team_Score
             }
         }
 
-        private void exportIndividual_Ok(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            var filename = exportTeamScoresIndividualDialog.FileName;
-            File.WriteAllText(filename, htmlPanel_Individual.Text);
-        }
-
-        private void exportTotal_Ok(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            var filename = exportTeamScoresTotalDialog.FileName;
-            File.WriteAllText(filename, htmlPanel_Total.Text);
-        }
     }
 }

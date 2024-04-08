@@ -75,9 +75,10 @@ namespace EYOC_Team_Score
             // btn_ImportFile
             // 
             btn_ImportFile.AccessibleRole = AccessibleRole.None;
-            btn_ImportFile.Location = new Point(6, 22);
+            btn_ImportFile.Location = new Point(9, 37);
+            btn_ImportFile.Margin = new Padding(4, 5, 4, 5);
             btn_ImportFile.Name = "btn_ImportFile";
-            btn_ImportFile.Size = new Size(142, 23);
+            btn_ImportFile.Size = new Size(203, 38);
             btn_ImportFile.TabIndex = 1;
             btn_ImportFile.Text = "Import Result File";
             btn_ImportFile.UseVisualStyleBackColor = true;
@@ -88,9 +89,11 @@ namespace EYOC_Team_Score
             groupBox1.Controls.Add(btn_CalculateTeamScores);
             groupBox1.Controls.Add(listbox_ResultFiles);
             groupBox1.Controls.Add(btn_ImportFile);
-            groupBox1.Location = new Point(12, 37);
+            groupBox1.Location = new Point(17, 62);
+            groupBox1.Margin = new Padding(4, 5, 4, 5);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(776, 97);
+            groupBox1.Padding = new Padding(4, 5, 4, 5);
+            groupBox1.Size = new Size(1109, 162);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Import results";
@@ -98,9 +101,10 @@ namespace EYOC_Team_Score
             // btn_CalculateTeamScores
             // 
             btn_CalculateTeamScores.Font = new Font("Segoe UI", 9F);
-            btn_CalculateTeamScores.Location = new Point(6, 63);
+            btn_CalculateTeamScores.Location = new Point(9, 105);
+            btn_CalculateTeamScores.Margin = new Padding(4, 5, 4, 5);
             btn_CalculateTeamScores.Name = "btn_CalculateTeamScores";
-            btn_CalculateTeamScores.Size = new Size(142, 23);
+            btn_CalculateTeamScores.Size = new Size(203, 38);
             btn_CalculateTeamScores.TabIndex = 3;
             btn_CalculateTeamScores.Text = "Calculate Team Scores";
             btn_CalculateTeamScores.UseVisualStyleBackColor = true;
@@ -110,10 +114,11 @@ namespace EYOC_Team_Score
             // 
             listbox_ResultFiles.DataSource = eventBindingSource;
             listbox_ResultFiles.FormattingEnabled = true;
-            listbox_ResultFiles.ItemHeight = 15;
-            listbox_ResultFiles.Location = new Point(163, 22);
+            listbox_ResultFiles.ItemHeight = 25;
+            listbox_ResultFiles.Location = new Point(233, 37);
+            listbox_ResultFiles.Margin = new Padding(4, 5, 4, 5);
             listbox_ResultFiles.Name = "listbox_ResultFiles";
-            listbox_ResultFiles.Size = new Size(607, 64);
+            listbox_ResultFiles.Size = new Size(865, 104);
             listbox_ResultFiles.TabIndex = 2;
             listbox_ResultFiles.MouseUp += listbox_ResultFiles_MouseUp;
             // 
@@ -123,15 +128,16 @@ namespace EYOC_Team_Score
             // 
             // openResultFileDialog
             // 
-            openResultFileDialog.Filter = "\"XML files|*.xml|All files|*.*\"";
+            openResultFileDialog.Filter = "XML files|*.xml|All files|*.*";
             // 
             // lbl_TeamScores
             // 
             lbl_TeamScores.AutoSize = true;
             lbl_TeamScores.Font = new Font("Segoe UI", 14F);
-            lbl_TeamScores.Location = new Point(355, 133);
+            lbl_TeamScores.Location = new Point(507, 222);
+            lbl_TeamScores.Margin = new Padding(4, 0, 4, 0);
             lbl_TeamScores.Name = "lbl_TeamScores";
-            lbl_TeamScores.Size = new Size(116, 25);
+            lbl_TeamScores.Size = new Size(147, 32);
             lbl_TeamScores.TabIndex = 4;
             lbl_TeamScores.Text = "Team Scores";
             // 
@@ -139,19 +145,21 @@ namespace EYOC_Team_Score
             // 
             tabs_TeamScore.Controls.Add(Total);
             tabs_TeamScore.Controls.Add(IndividualPage);
-            tabs_TeamScore.Location = new Point(18, 146);
+            tabs_TeamScore.Location = new Point(26, 243);
+            tabs_TeamScore.Margin = new Padding(4, 5, 4, 5);
             tabs_TeamScore.Name = "tabs_TeamScore";
             tabs_TeamScore.SelectedIndex = 0;
-            tabs_TeamScore.Size = new Size(770, 573);
+            tabs_TeamScore.Size = new Size(1100, 955);
             tabs_TeamScore.TabIndex = 5;
             // 
             // Total
             // 
             Total.Controls.Add(htmlPanel_Total);
-            Total.Location = new Point(4, 24);
+            Total.Location = new Point(4, 34);
+            Total.Margin = new Padding(4, 5, 4, 5);
             Total.Name = "Total";
-            Total.Padding = new Padding(3);
-            Total.Size = new Size(762, 545);
+            Total.Padding = new Padding(4, 5, 4, 5);
+            Total.Size = new Size(1092, 917);
             Total.TabIndex = 0;
             Total.Text = "Total";
             Total.UseVisualStyleBackColor = true;
@@ -162,19 +170,21 @@ namespace EYOC_Team_Score
             htmlPanel_Total.BackColor = SystemColors.Window;
             htmlPanel_Total.BaseStylesheet = null;
             htmlPanel_Total.Dock = DockStyle.Fill;
-            htmlPanel_Total.Location = new Point(3, 3);
+            htmlPanel_Total.Location = new Point(4, 5);
+            htmlPanel_Total.Margin = new Padding(4, 5, 4, 5);
             htmlPanel_Total.Name = "htmlPanel_Total";
-            htmlPanel_Total.Size = new Size(756, 539);
+            htmlPanel_Total.Size = new Size(1084, 907);
             htmlPanel_Total.TabIndex = 6;
             htmlPanel_Total.Text = null;
             // 
             // IndividualPage
             // 
             IndividualPage.Controls.Add(htmlPanel_Individual);
-            IndividualPage.Location = new Point(4, 24);
+            IndividualPage.Location = new Point(4, 34);
+            IndividualPage.Margin = new Padding(4, 5, 4, 5);
             IndividualPage.Name = "IndividualPage";
-            IndividualPage.Padding = new Padding(3);
-            IndividualPage.Size = new Size(762, 545);
+            IndividualPage.Padding = new Padding(4, 5, 4, 5);
+            IndividualPage.Size = new Size(1092, 917);
             IndividualPage.TabIndex = 1;
             IndividualPage.Text = "Detailed";
             IndividualPage.UseVisualStyleBackColor = true;
@@ -185,31 +195,35 @@ namespace EYOC_Team_Score
             htmlPanel_Individual.BackColor = SystemColors.Window;
             htmlPanel_Individual.BaseStylesheet = null;
             htmlPanel_Individual.Dock = DockStyle.Fill;
-            htmlPanel_Individual.Location = new Point(3, 3);
+            htmlPanel_Individual.Location = new Point(4, 5);
+            htmlPanel_Individual.Margin = new Padding(4, 5, 4, 5);
             htmlPanel_Individual.Name = "htmlPanel_Individual";
-            htmlPanel_Individual.Size = new Size(756, 539);
+            htmlPanel_Individual.Size = new Size(1084, 907);
             htmlPanel_Individual.TabIndex = 6;
             htmlPanel_Individual.Text = null;
             // 
             // ctxmenu_DeleteResultFile
             // 
+            ctxmenu_DeleteResultFile.ImageScalingSize = new Size(20, 20);
             ctxmenu_DeleteResultFile.Items.AddRange(new ToolStripItem[] { mitem_DeleteResultFile });
             ctxmenu_DeleteResultFile.Name = "ctxmenu_DeleteResultFile";
-            ctxmenu_DeleteResultFile.Size = new Size(181, 26);
+            ctxmenu_DeleteResultFile.Size = new Size(244, 34);
             // 
             // mitem_DeleteResultFile
             // 
             mitem_DeleteResultFile.Name = "mitem_DeleteResultFile";
-            mitem_DeleteResultFile.Size = new Size(180, 22);
+            mitem_DeleteResultFile.Size = new Size(243, 30);
             mitem_DeleteResultFile.Text = "Delete this result file";
             mitem_DeleteResultFile.Click += ctxmenu_DeleteResultFile_Click;
             // 
             // menuTop
             // 
+            menuTop.ImageScalingSize = new Size(20, 20);
             menuTop.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
             menuTop.Location = new Point(0, 0);
             menuTop.Name = "menuTop";
-            menuTop.Size = new Size(800, 24);
+            menuTop.Padding = new Padding(9, 3, 0, 3);
+            menuTop.Size = new Size(1143, 35);
             menuTop.TabIndex = 6;
             menuTop.Text = "menuStrip1";
             // 
@@ -217,7 +231,7 @@ namespace EYOC_Team_Score
             // 
             fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { menuTop_OpenFile, toolStripSeparator, menuTop_Export, toolStripSeparator1, printToolStripMenuItem, printPreviewToolStripMenuItem, toolStripSeparator2, menuTop_Exit });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Size = new Size(52, 29);
             fileToolStripMenuItem.Text = "&File";
             // 
             // menuTop_OpenFile
@@ -226,14 +240,14 @@ namespace EYOC_Team_Score
             menuTop_OpenFile.ImageTransparentColor = Color.Magenta;
             menuTop_OpenFile.Name = "menuTop_OpenFile";
             menuTop_OpenFile.ShortcutKeys = Keys.Control | Keys.O;
-            menuTop_OpenFile.Size = new Size(209, 22);
+            menuTop_OpenFile.Size = new Size(301, 30);
             menuTop_OpenFile.Text = "&Import Result File";
             menuTop_OpenFile.Click += ImportFile_Click;
             // 
             // toolStripSeparator
             // 
             toolStripSeparator.Name = "toolStripSeparator";
-            toolStripSeparator.Size = new Size(206, 6);
+            toolStripSeparator.Size = new Size(298, 6);
             // 
             // menuTop_Export
             // 
@@ -241,13 +255,14 @@ namespace EYOC_Team_Score
             menuTop_Export.ImageTransparentColor = Color.Magenta;
             menuTop_Export.Name = "menuTop_Export";
             menuTop_Export.ShortcutKeys = Keys.Control | Keys.S;
-            menuTop_Export.Size = new Size(209, 22);
+            menuTop_Export.Size = new Size(301, 30);
             menuTop_Export.Text = "&Export Reports";
+            menuTop_Export.Click += ExportFile_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(206, 6);
+            toolStripSeparator1.Size = new Size(298, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -256,7 +271,7 @@ namespace EYOC_Team_Score
             printToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printToolStripMenuItem.Name = "printToolStripMenuItem";
             printToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.P;
-            printToolStripMenuItem.Size = new Size(209, 22);
+            printToolStripMenuItem.Size = new Size(301, 30);
             printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -265,73 +280,72 @@ namespace EYOC_Team_Score
             printPreviewToolStripMenuItem.Image = (Image)resources.GetObject("printPreviewToolStripMenuItem.Image");
             printPreviewToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            printPreviewToolStripMenuItem.Size = new Size(209, 22);
+            printPreviewToolStripMenuItem.Size = new Size(301, 30);
             printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(206, 6);
+            toolStripSeparator2.Size = new Size(298, 6);
             // 
             // menuTop_Exit
             // 
             menuTop_Exit.Name = "menuTop_Exit";
-            menuTop_Exit.Size = new Size(209, 22);
+            menuTop_Exit.Size = new Size(301, 30);
             menuTop_Exit.Text = "E&xit";
             // 
             // toolsToolStripMenuItem
             // 
             toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { menuTop_Options });
             toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            toolsToolStripMenuItem.Size = new Size(46, 20);
+            toolsToolStripMenuItem.Size = new Size(67, 29);
             toolsToolStripMenuItem.Text = "&Tools";
             // 
             // menuTop_Options
             // 
             menuTop_Options.Enabled = false;
             menuTop_Options.Name = "menuTop_Options";
-            menuTop_Options.Size = new Size(116, 22);
+            menuTop_Options.Size = new Size(162, 30);
             menuTop_Options.Text = "&Options";
             // 
             // helpToolStripMenuItem
             // 
             helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator5, menuTop_about });
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            helpToolStripMenuItem.Size = new Size(44, 20);
+            helpToolStripMenuItem.Size = new Size(63, 29);
             helpToolStripMenuItem.Text = "&Help";
             // 
             // toolStripSeparator5
             // 
             toolStripSeparator5.Name = "toolStripSeparator5";
-            toolStripSeparator5.Size = new Size(113, 6);
+            toolStripSeparator5.Size = new Size(157, 6);
             // 
             // menuTop_about
             // 
             menuTop_about.Name = "menuTop_about";
-            menuTop_about.Size = new Size(116, 22);
+            menuTop_about.Size = new Size(160, 30);
             menuTop_about.Text = "&About...";
             // 
             // exportTeamScoresIndividualDialog
             // 
             exportTeamScoresIndividualDialog.FileName = "teamscores_details.html";
-            exportTeamScoresIndividualDialog.Filter = "\"HTML files|*.html\"";
-            exportTeamScoresIndividualDialog.FileOk += exportIndividual_Ok;
+            exportTeamScoresIndividualDialog.Filter = "HTML files|*.html|All files|*.*";
             // 
             // exportTeamScoresTotalDialog
             // 
             exportTeamScoresTotalDialog.FileName = "teamscores_total.html";
-            exportTeamScoresTotalDialog.Filter = "\"HTML files|*.html\"";
-            exportTeamScoresTotalDialog.FileOk += exportTotal_Ok;
+            exportTeamScoresTotalDialog.Filter = "HTML files|*.html|All files|*.*";
             // 
             // EYOCTeamScore
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 731);
+            ClientSize = new Size(1143, 1053);
             Controls.Add(menuTop);
             Controls.Add(lbl_TeamScores);
             Controls.Add(tabs_TeamScore);
             Controls.Add(groupBox1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "EYOCTeamScore";
             Text = "EYOC Team Score Calculator";
             groupBox1.ResumeLayout(false);
