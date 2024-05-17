@@ -67,7 +67,8 @@ namespace EYOC_Team_Score.Util
                                     Place = (int)personResultElement.Element(ns + "Result").Element(ns + "Position"),
                                     Time = (int)personResultElement.Element(ns + "Result").Element(ns + "Time"),
                                     Score = 0,
-                                    Country = country
+                                    Country = country,
+                                    Counting = false
                                 };
                                 persons.Add(person);
                             }
@@ -92,7 +93,8 @@ namespace EYOC_Team_Score.Util
                                     Place = (int)overallResult.Element(ns + "Position"),
                                     Time = (int)overallResult.Element(ns + "Time"),
                                     Score = 0,
-                                    Country = country
+                                    Country = country,
+                                    Counting = false
                                 };
                                 teams.Add(team);
                             }

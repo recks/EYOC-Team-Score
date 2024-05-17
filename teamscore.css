@@ -1,10 +1,37 @@
-﻿/* CSS for Team Score document */
+/* CSS for Team Score document */
 
 .o-table {
-    width: 100%;
+    font-family: sans-serif;
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.o-td {
+    padding: 0.2em 1em 0.2em 1em;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.o-l {
+    text-align: left;
 }
 
 .o-th {
-    background: #f8f0b0;
-    text-align: left;
+    text-align: center;
+}
+
+.o-th-0 {
+    background: #ccffcc;
+}
+
+.o-th-1 {
+    background: #ffcccc;
+}
+
+.o-th-2 {
+    background: #ccccff;
+}
+
+.o-th-total {
+    background: #ccffff;
 }
