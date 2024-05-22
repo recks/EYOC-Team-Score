@@ -2,15 +2,9 @@ using EYOC_Team_Score.Model;
 using EYOC_Team_Score.Util;
 using Microsoft.Extensions.Configuration;
 using OfficeOpenXml;
-using OfficeOpenXml.ConditionalFormatting;
 using OfficeOpenXml.Style;
 using OfficeOpenXml.Style.XmlAccess;
-using System.Diagnostics.Metrics;
-using System.Globalization;
-using System.IO;
 using System.Text;
-using System.Windows.Forms;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace EYOC_Team_Score
 {
@@ -258,11 +252,9 @@ namespace EYOC_Team_Score
         private void initializeExcelStyles(ExcelWorkbook workBook)
         {
             style = workBook.Styles.CreateNamedStyle("Default");
-            style.Style.Font.Name = "Calibri";
-            style.Style.Font.Bold = false;
+            //style.Style.Font.Name = "Calibri";
             style.Style.Font.Family = 2;
             style.Style.Font.Size = 12;
-            style.Style.Font.Color.SetColor(Color.Black);
 
             style = workBook.Styles.CreateNamedStyle("Header");
             style.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
@@ -313,12 +305,16 @@ namespace EYOC_Team_Score
                 int i;
                 int j;
 
-                // One sheet per event.
+                // Sheets per event:
+                // - One total
+                // - A sheet per class with individual results
                 foreach (Event evt in ActiveEvents)
                 {
+                    //// First: one sheet with country scores
+
                     workSheet = package.Workbook.Worksheets.Add(evt.Name);
                     workSheet.DefaultRowHeight = 13;
-                    workSheet.Rows.StyleName = "Default";
+                    //workSheet.Rows.StyleName = "Default";
                     //evt.Clazzes.Sort();
 
                     // Worksheet header
@@ -330,7 +326,7 @@ namespace EYOC_Team_Score
                         workSheet.Cells[1, j++].Value = cls.Name;
                     }
                     workSheet.Cells[1, j].Value = "Total";
-                    workSheet.Cells[1, 1, 1, j].StyleName = "Header";  // Dark green background
+                    //workSheet.Cells[1, 1, 1, j].StyleName = "Header";  // Dark green background
 
                     // Worksheet content
                     var countries = from country in CountryScores orderby country.TotalScoreForEvent(evt.Name) descending select country;
@@ -366,7 +362,7 @@ namespace EYOC_Team_Score
                             workSheet.Cells[i, j++].Value = score != 0 ? score : "";
                         }
                         workSheet.Cells[i, j++].Value = totalScore;
-                        workSheet.Cells[i, 1, i, j-1].StyleName = "Country";  // Light green background
+                        //workSheet.Cells[i, 1, i, j-1].StyleName = "Country";  // Light green background
                         i++;
 
                         // Row content - runners
@@ -386,12 +382,39 @@ namespace EYOC_Team_Score
                     }
                     // Fit columns
                     workSheet.Cells[1, 1, i, j].AutoFitColumns();
+
+                    //// Second: one sheet per class
+
+                    foreach (Clazz cls in evt.Clazzes)
+                    {
+                        // Header
+                        workSheet = package.Workbook.Worksheets.Add($"{evt.Name}, {cls.Name}");
+                        workSheet.Cells[1, 2].Value = "Name";
+                        workSheet.Cells[1, 3].Value = "Country";
+                        workSheet.Cells[1, 4].Value = "Time";
+                        workSheet.Cells[1, 5].Value = "Points";
+
+                        // Content, 1 row per runner.
+                        i = 2;  // row
+                        cls.PersonsOrTeams.Sort((a, b) => { return a.Time.CompareTo(b.Time); });
+                        foreach (PersonOrTeam pot in cls.PersonsOrTeams)
+                        {
+                            workSheet.Cells[i, 1].Value = pot.Place;
+                            workSheet.Cells[i, 2].Value = pot.Name;
+                            workSheet.Cells[i, 3].Value = pot.Country;
+                            workSheet.Cells[i, 4].Value = secondsToHHMMSS(pot.Time);
+                            workSheet.Cells[i, 5].Value = pot.Score;
+                            i++;
+                        }
+                        workSheet.Cells[1, 1, i, 5].AutoFitColumns();
+                    }
+
                 }
 
                 // Sheet with total
                 workSheet = package.Workbook.Worksheets.Add("Total");
                 workSheet.DefaultRowHeight = 13;
-                workSheet.Rows.StyleName = "Default";
+                //workSheet.Rows.StyleName = "Default";
                 //evt.Clazzes.Sort();
 
                 // Worksheet header
@@ -403,13 +426,13 @@ namespace EYOC_Team_Score
                     Event evt = ActiveEvents[k];
                     workSheet.Cells[1, j, 1, j+evt.Clazzes.Count].Merge = true;  // Event header
                     workSheet.Cells[1, j].Value = evt.Name;
-                    workSheet.Cells[1, j].StyleName = "EventHeader" + (k % 3);
+                    //workSheet.Cells[1, j].StyleName = "EventHeader" + (k % 3);
                     foreach (Clazz cls in evt.Clazzes)
                     {
                         workSheet.Cells[2, j++].Value = cls.Name;
                     }
                     workSheet.Cells[2, j++].Value = "Total";
-                    workSheet.Cells[2, start, 2, j - 1].StyleName = "EventScores" + (k % 3);
+                    //workSheet.Cells[2, start, 2, j - 1].StyleName = "EventScores" + (k % 3);
                     workSheet.Cells[2, start, 2, j - 1].Style.Font.Bold = true;
                 }
                 workSheet.Cells[2, j].Value = "TOTAL";
@@ -447,10 +470,12 @@ namespace EYOC_Team_Score
                         {
                             Tuple<string, string> scoreTuple = new Tuple<string, string>(evt.Name, cls.Name);
                             workSheet.Cells[i, j].Value = country.Scores.ContainsKey(scoreTuple) ? country.Scores[scoreTuple] : "";
-                            workSheet.Cells[i, j++].StyleName = "EventScores" + (k % 3);
+                            //workSheet.Cells[i, j].StyleName = "EventScores" + (k % 3);
+                            j++;
                         }
                         workSheet.Cells[i, j].Value = country.TotalScoreForEvent(evt.Name);
-                        workSheet.Cells[i, j++].StyleName = "EventScores" + (k % 3);
+                        //workSheet.Cells[i, j].StyleName = "EventScores" + (k % 3);
+                        j++;
                     }
                     workSheet.Cells[i, j++].Value = country.TotalScore();
 
@@ -512,7 +537,7 @@ namespace EYOC_Team_Score
                 }
                 catch (IofXmlParseException ex)
                 {
-                    MessageBox.Show("The file doesn't seem to contain a valid IOF XML 3.0 file.", ex.Message, MessageBoxButtons.OK);
+                    MessageBox.Show("The file doesn't seem to contain a valid IOF XML 3.0 file.", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -536,7 +561,13 @@ namespace EYOC_Team_Score
             if (exportExcelDialog.ShowDialog() == DialogResult.OK)
             {
                 var filename = exportExcelDialog.FileName;
-                writeExcelSheet(filename);
+                try
+                {
+                    writeExcelSheet(filename);
+                } catch (IOException ex)
+                {
+                    MessageBox.Show($"Couldn't write to {filename}\nIs it open in another application?", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
