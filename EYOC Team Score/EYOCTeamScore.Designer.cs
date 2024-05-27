@@ -293,6 +293,7 @@ namespace EYOC_Team_Score
             menuTop_Exit.Name = "menuTop_Exit";
             menuTop_Exit.Size = new Size(219, 26);
             menuTop_Exit.Text = "E&xit";
+            menuTop_Exit.Click += Exit_Click;
             // 
             // toolsToolStripMenuItem
             // 
@@ -325,6 +326,7 @@ namespace EYOC_Team_Score
             menuTop_about.Name = "menuTop_about";
             menuTop_about.Size = new Size(116, 22);
             menuTop_about.Text = "&About...";
+            menuTop_about.Click += About_Click;
             // 
             // exportTeamScoresIndividualDialog
             // 
@@ -336,7 +338,7 @@ namespace EYOC_Team_Score
             exportTeamScoresTotalDialog.FileName = "teamscores_total.html";
             exportTeamScoresTotalDialog.Filter = "HTML files|*.html|All files|*.*";
             // 
-            // ExportExcelDialog
+            // exportExcelDialog
             // 
             exportExcelDialog.FileName = "teamscores.xlsx";
             exportExcelDialog.Filter = "Excel files|*.xlsx|All files|*.*";

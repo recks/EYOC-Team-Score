@@ -571,6 +571,17 @@ namespace EYOC_Team_Score
             }
         }
 
+        private void About_Click(object sender, EventArgs e)
+        {
+            AboutBox box = new AboutBox();
+            box.Show();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btn_CalculateTeamScores_Click(object sender, EventArgs e)
         {
             calculateScores();
