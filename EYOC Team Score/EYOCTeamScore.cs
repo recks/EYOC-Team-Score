@@ -10,6 +10,9 @@ namespace EYOC_Team_Score
 {
     public partial class EYOCTeamScore : Form
     {
+        // Configuration
+        IConfigurationRoot config;
+
         // Point tables for calculation of team scores
         Scores[]? Scores;
         // Parser for IOF XML 3.0 file
@@ -30,6 +33,10 @@ namespace EYOC_Team_Score
 
         public EYOCTeamScore()
         {
+            config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
             ReadPointTables();
             InitializeComponent();
             ActiveEvents = new List<Event>();
@@ -45,10 +52,6 @@ namespace EYOC_Team_Score
         {
             try
             {
-                IConfigurationRoot config = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json")
-                .Build();
-
                 // Get Point tables for score calculation
                 Scores = config.GetRequiredSection("PointTables").Get<Scores[]>();
                 if (Scores == null || Scores.Length == 0)
@@ -368,7 +371,7 @@ namespace EYOC_Team_Score
                         // Row content - runners
                         var runnerLists = from cls in evt.Clazzes select cls.PersonsOrTeams;
                         j = 3;  // Start column for scores
-                        foreach(List<PersonOrTeam> runners in runnerLists)
+                        foreach (List<PersonOrTeam> runners in runnerLists)
                         {
                             List<PersonOrTeam> countingRunners = runners.FindAll(r => r.Country == country.Name && r.Counting).ToList();
                             foreach (PersonOrTeam runner in countingRunners)
@@ -424,7 +427,7 @@ namespace EYOC_Team_Score
                 {
                     int start = j;
                     Event evt = ActiveEvents[k];
-                    workSheet.Cells[1, j, 1, j+evt.Clazzes.Count].Merge = true;  // Event header
+                    workSheet.Cells[1, j, 1, j + evt.Clazzes.Count].Merge = true;  // Event header
                     workSheet.Cells[1, j].Value = evt.Name;
                     //workSheet.Cells[1, j].StyleName = "EventHeader" + (k % 3);
                     foreach (Clazz cls in evt.Clazzes)
@@ -554,6 +557,12 @@ namespace EYOC_Team_Score
                 var filename = exportTeamScoresTotalDialog.FileName;
                 File.WriteAllText(filename, htmlPanel_Total.Text);
             }
+            var csssrc = config.GetRequiredSection("CSSsrc").Get<string>();
+            if (csssrc != null && Properties.Settings.Default.ExportCSS && exportTeamScoresCSSDialog.ShowDialog() == DialogResult.OK)
+            {
+                var dst = exportTeamScoresCSSDialog.FileName;
+                File.Copy(csssrc, dst, true);
+            }
         }
 
         private void ExportSheet_Click(object sender, EventArgs e)
@@ -564,11 +573,18 @@ namespace EYOC_Team_Score
                 try
                 {
                     writeExcelSheet(filename);
-                } catch (IOException ex)
+                }
+                catch (IOException ex)
                 {
                     MessageBox.Show($"Couldn't write to {filename}\nIs it open in another application?", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void Options_Click(object sender, EventArgs e)
+        {
+            OptionsBox box = new OptionsBox();
+            box.Show();
         }
 
         private void About_Click(object sender, EventArgs e)
@@ -614,6 +630,6 @@ namespace EYOC_Team_Score
             }
         }
 
-        #endregion
+#endregion
     }
 }

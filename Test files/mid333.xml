@@ -1,0 +1,6469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ <ResultList xmlns="http://www.orienteering.org/datastandard/3.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ iofVersion="3.0"
+ createTime="2024-04-10T22:58:49.536"
+ creator="SportSoftware OE12 (M) V.12.1">
+<Event>
+<Name>ŒREDNI 6 MPIK</Name>
+<StartTime>
+<Date>2024-04-06</Date>
+<Time>10:00:00.000</Time>
+</StartTime>
+</Event>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>1</Id>
+<Name>K10</Name>
+<ShortName>K10</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9002</Id>
+<Name>KM10</Name>
+<Length>2190</Length>
+<NumberOfControls>8</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>6232</Id>
+<Name>
+<Family>Szewczyk</Family>
+<Given>Maja</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>1</Id>
+<Name>MKS Skarmat, Toruń</Name>
+<ShortName>MKS Skarmat, Toruń</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>1</BibNumber>
+<StartTime>2024-04-06T10:09:00.000</StartTime>
+<FinishTime>2024-04-06T10:36:46.000</FinishTime>
+<Time>1666</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>435237</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5830</Id>
+<Name>
+<Family>Gorząd</Family>
+<Given>Majka</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>3</BibNumber>
+<StartTime>2024-04-06T10:11:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:21.000</FinishTime>
+<Time>3561</Time>
+<TimeBehind>1895</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8661492</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5071</Id>
+<Name>
+<Family>Szydłowska</Family>
+<Given>Barbara</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>2</BibNumber>
+<StartTime>2024-04-06T10:07:00.000</StartTime>
+<FinishTime>2024-04-06T10:51:48.000</FinishTime>
+<Time>2688</Time>
+<TimeBehind>1022</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8500617</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>2</Id>
+<Name>K10N</Name>
+<ShortName>K10N</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9001</Id>
+<Name>KM10N/Rodzinna</Name>
+<Length>2360</Length>
+<NumberOfControls>6</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>6226</Id>
+<Name>
+<Family>Prątnicka</Family>
+<Given>Aleksandra</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>4</BibNumber>
+<StartTime>2024-04-06T10:00:00.000</StartTime>
+<FinishTime>2024-04-06T10:18:19.000</FinishTime>
+<Time>1099</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8500665</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Richter</Family>
+<Given>Lotte</Given>
+</Name>
+<BirthDate>2015-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>167</BibNumber>
+<StartTime>2024-04-06T10:08:00.000</StartTime>
+<FinishTime>2024-04-06T10:29:15.000</FinishTime>
+<Time>1275</Time>
+<TimeBehind>176</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>2041784</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6228</Id>
+<Name>
+<Family>Moczarska</Family>
+<Given>Agata</Given>
+</Name>
+<BirthDate>2016-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>5</BibNumber>
+<StartTime>2024-04-06T10:04:00.000</StartTime>
+<FinishTime>2024-04-06T10:25:44.000</FinishTime>
+<Time>1304</Time>
+<TimeBehind>205</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8650897</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5918</Id>
+<Name>
+<Family>Andrzejewska</Family>
+<Given>Hanna</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>6</BibNumber>
+<StartTime>2024-04-06T10:02:00.000</StartTime>
+<FinishTime>2024-04-06T10:26:18.000</FinishTime>
+<Time>1458</Time>
+<TimeBehind>359</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8661478</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5915</Id>
+<Name>
+<Family>Gorząd</Family>
+<Given>Julia</Given>
+</Name>
+<BirthDate>2017-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>178</BibNumber>
+<StartTime>2024-04-06T10:06:00.000</StartTime>
+<FinishTime>2024-04-06T10:37:30.000</FinishTime>
+<Time>1890</Time>
+<TimeBehind>791</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8661486</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>3</Id>
+<Name>K12</Name>
+<ShortName>K12</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9003</Id>
+<Name>KM12</Name>
+<Length>2690</Length>
+<NumberOfControls>10</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Richter</Family>
+<Given>Merle</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>9</BibNumber>
+<StartTime>2024-04-06T10:13:00.000</StartTime>
+<FinishTime>2024-04-06T10:42:52.000</FinishTime>
+<Time>1792</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8462013</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Antonia</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>10</BibNumber>
+<StartTime>2024-04-06T10:09:00.000</StartTime>
+<FinishTime>2024-04-06T10:48:56.000</FinishTime>
+<Time>2396</Time>
+<TimeBehind>604</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8606443</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5150</Id>
+<Name>
+<Family>Ciborowska</Family>
+<Given>Pola</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>14</BibNumber>
+<StartTime>2024-04-06T10:07:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:18.000</FinishTime>
+<Time>3798</Time>
+<TimeBehind>2006</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8661476</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5920</Id>
+<Name>
+<Family>Pilewska</Family>
+<Given>Gabriela</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>11</BibNumber>
+<StartTime>2024-04-06T10:05:00.000</StartTime>
+<FinishTime>2024-04-06T11:12:31.000</FinishTime>
+<Time>4051</Time>
+<TimeBehind>2259</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8500653</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5922</Id>
+<Name>
+<Family>Moczarska</Family>
+<Given>Julia</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>13</BibNumber>
+<StartTime>2024-04-06T10:17:00.000</StartTime>
+<FinishTime>2024-04-06T11:27:58.000</FinishTime>
+<Time>4258</Time>
+<TimeBehind>2466</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8500657</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5069</Id>
+<Name>
+<Family>Trela</Family>
+<Given>Eliza</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>12</BibNumber>
+<StartTime>2024-04-06T10:11:00.000</StartTime>
+<FinishTime>2024-04-06T11:28:41.000</FinishTime>
+<Time>4661</Time>
+<TimeBehind>2869</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8500626</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6349</Id>
+<Name>
+<Family>Bełdowska</Family>
+<Given>Alicja</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>8</BibNumber>
+<StartTime>2024-04-06T10:03:00.000</StartTime>
+<FinishTime>2024-04-06T12:17:30.000</FinishTime>
+<Time>8070</Time>
+<TimeBehind>6278</TimeBehind>
+<Status>DidNotFinish</Status>
+<ControlCard>8260762</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6350</Id>
+<Name>
+<Family>Świerzko</Family>
+<Given>Natalia</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>7</BibNumber>
+<StartTime>2024-04-06T10:15:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>4</Id>
+<Name>K14</Name>
+<ShortName>K14</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9004</Id>
+<Name>KM14,M55/60,K35/40</Name>
+<Length>3500</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Drechsler</Family>
+<Given>Selma</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>18</BibNumber>
+<StartTime>2024-04-06T10:04:00.000</StartTime>
+<FinishTime>2024-04-06T10:45:01.000</FinishTime>
+<Time>2461</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8606437</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Klotz</Family>
+<Given>Mathilda</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>17</BibNumber>
+<StartTime>2024-04-06T10:00:00.000</StartTime>
+<FinishTime>2024-04-06T10:45:16.000</FinishTime>
+<Time>2716</Time>
+<TimeBehind>255</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8234302</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5837</Id>
+<Name>
+<Family>Franas</Family>
+<Given>Karolina</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>22</BibNumber>
+<StartTime>2024-04-06T10:12:00.000</StartTime>
+<FinishTime>2024-04-06T11:08:57.000</FinishTime>
+<Time>3417</Time>
+<TimeBehind>956</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8229120</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Löhning</Family>
+<Given>Lisa</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>15</BibNumber>
+<StartTime>2024-04-06T10:06:00.000</StartTime>
+<FinishTime>2024-04-06T11:08:39.000</FinishTime>
+<Time>3759</Time>
+<TimeBehind>1298</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8030811</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Hoke</Family>
+<Given>Lieselotte</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>16</BibNumber>
+<StartTime>2024-04-06T10:14:00.000</StartTime>
+<FinishTime>2024-04-06T11:18:48.000</FinishTime>
+<Time>3888</Time>
+<TimeBehind>1427</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8010731</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5584</Id>
+<Name>
+<Family>Borowiec</Family>
+<Given>Izabela</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>21</BibNumber>
+<StartTime>2024-04-06T10:08:00.000</StartTime>
+<FinishTime>2024-04-06T11:27:50.000</FinishTime>
+<Time>4790</Time>
+<TimeBehind>2329</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8105271</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5919</Id>
+<Name>
+<Family>Łukijańska</Family>
+<Given>Kinga</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>20</BibNumber>
+<StartTime>2024-04-06T10:02:00.000</StartTime>
+<FinishTime>2024-04-06T11:28:44.000</FinishTime>
+<Time>5204</Time>
+<TimeBehind>2743</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8500642</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>von Dalowski</Family>
+<Given>Mila</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>19</BibNumber>
+<StartTime>2024-04-06T10:10:00.000</StartTime>
+<FinishTime>2024-04-06T11:01:01.000</FinishTime>
+<Time>3061</Time>
+<TimeBehind>600</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8180210</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>5</Id>
+<Name>K16</Name>
+<ShortName>K16</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9005</Id>
+<Name>KM16/M45/50</Name>
+<Length>4230</Length>
+<NumberOfControls>16</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Holfeld</Family>
+<Given>Anna</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>35</BibNumber>
+<StartTime>2024-04-06T10:02:00.000</StartTime>
+<FinishTime>2024-04-06T10:40:51.000</FinishTime>
+<Time>2331</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8606410</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Ellke</Family>
+<Given>Margarethe</Given>
+</Name>
+<BirthDate>2016-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>24</BibNumber>
+<StartTime>2024-04-06T10:10:04.000</StartTime>
+<FinishTime>2024-04-06T10:50:55.000</FinishTime>
+<Time>2451</Time>
+<TimeBehind>120</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8606483</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Greta</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>28</BibNumber>
+<StartTime>2024-04-06T10:24:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:17.000</FinishTime>
+<Time>2537</Time>
+<TimeBehind>206</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8100709</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Wetzel</Family>
+<Given>Jannika</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>26</BibNumber>
+<StartTime>2024-04-06T10:06:00.000</StartTime>
+<FinishTime>2024-04-06T10:51:10.000</FinishTime>
+<Time>2710</Time>
+<TimeBehind>379</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8455002</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Baath</Family>
+<Given>Lena</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>34</BibNumber>
+<StartTime>2024-04-06T10:20:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:05.000</FinishTime>
+<Time>2765</Time>
+<TimeBehind>434</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8201060</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Prolingheuer</Family>
+<Given>Marika</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>33</BibNumber>
+<StartTime>2024-04-06T10:16:00.000</StartTime>
+<FinishTime>2024-04-06T11:04:38.000</FinishTime>
+<Time>2918</Time>
+<TimeBehind>587</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8443321</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Wetzel</Family>
+<Given>Emila</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>27</BibNumber>
+<StartTime>2024-04-06T10:28:00.000</StartTime>
+<FinishTime>2024-04-06T11:16:49.000</FinishTime>
+<Time>2929</Time>
+<TimeBehind>598</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8455001</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Horst</Family>
+<Given>Katja</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>25</BibNumber>
+<StartTime>2024-04-06T10:12:00.000</StartTime>
+<FinishTime>2024-04-06T11:01:31.000</FinishTime>
+<Time>2971</Time>
+<TimeBehind>640</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8011952</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kärger</Family>
+<Given>Mathilde</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>23</BibNumber>
+<StartTime>2024-04-06T10:14:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:23.000</FinishTime>
+<Time>3143</Time>
+<TimeBehind>812</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8070500</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Becker</Family>
+<Given>Lili</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>30</BibNumber>
+<StartTime>2024-04-06T10:18:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:35.000</FinishTime>
+<Time>3155</Time>
+<TimeBehind>824</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8011943</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dequiedt</Family>
+<Given>Sarah</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>32</BibNumber>
+<StartTime>2024-04-06T10:26:00.000</StartTime>
+<FinishTime>2024-04-06T11:26:31.000</FinishTime>
+<Time>3631</Time>
+<TimeBehind>1300</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8204008</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Hempel</Family>
+<Given>Luise</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>29</BibNumber>
+<StartTime>2024-04-06T10:00:00.000</StartTime>
+<FinishTime>2024-04-06T11:01:01.000</FinishTime>
+<Time>3661</Time>
+<TimeBehind>1330</TimeBehind>
+<Position>12</Position>
+<Status>OK</Status>
+<ControlCard>8606423</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4139</Id>
+<Name>
+<Family>Stempniewska</Family>
+<Given>Nadia</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>37</BibNumber>
+<StartTime>2024-04-06T10:22:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:39.000</FinishTime>
+<Time>4179</Time>
+<TimeBehind>1848</TimeBehind>
+<Position>13</Position>
+<Status>OK</Status>
+<ControlCard>8220951</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5018</Id>
+<Name>
+<Family>Szydłowska</Family>
+<Given>Magdalena</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>36</BibNumber>
+<StartTime>2024-04-06T10:08:00.000</StartTime>
+<FinishTime>2024-04-06T11:45:48.000</FinishTime>
+<Time>5868</Time>
+<TimeBehind>3537</TimeBehind>
+<Position>14</Position>
+<Status>OK</Status>
+<ControlCard>8148612</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Herrmann</Family>
+<Given>Charlotte</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>31</BibNumber>
+<StartTime>2024-04-06T10:04:00.000</StartTime>
+<FinishTime>2024-04-06T10:55:00.000</FinishTime>
+<Time>3060</Time>
+<TimeBehind>729</TimeBehind>
+<Status>DidNotFinish</Status>
+<ControlCard>8130408</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>6</Id>
+<Name>K18</Name>
+<ShortName>K18</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9006</Id>
+<Name>KM18,M35/40</Name>
+<Length>4860</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>3960</Id>
+<Name>
+<Family>Mikuła</Family>
+<Given>Daria</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>WKS Śląsk, Wrocław</Name>
+<ShortName>WKS Śląsk, Wrocław</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>38</BibNumber>
+<StartTime>2024-04-06T10:11:00.000</StartTime>
+<FinishTime>2024-04-06T10:51:12.000</FinishTime>
+<Time>2412</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8073012</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Burgmair</Family>
+<Given>Juliane</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>39</BibNumber>
+<StartTime>2024-04-06T10:09:00.000</StartTime>
+<FinishTime>2024-04-06T10:49:53.000</FinishTime>
+<Time>2453</Time>
+<TimeBehind>41</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8230107</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Drechsler</Family>
+<Given>Luise</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>41</BibNumber>
+<StartTime>2024-04-06T10:07:00.000</StartTime>
+<FinishTime>2024-04-06T10:49:57.000</FinishTime>
+<Time>2577</Time>
+<TimeBehind>165</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8606422</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Stamer</Family>
+<Given>Annika</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>42</BibNumber>
+<StartTime>2024-04-06T10:13:00.000</StartTime>
+<FinishTime>2024-04-06T10:56:02.000</FinishTime>
+<Time>2582</Time>
+<TimeBehind>170</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8020306</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kästner</Family>
+<Given>Anne</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>44</BibNumber>
+<StartTime>2024-04-06T10:05:00.000</StartTime>
+<FinishTime>2024-04-06T10:49:51.000</FinishTime>
+<Time>2691</Time>
+<TimeBehind>279</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8140206</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lindig</Family>
+<Given>Stanja</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>43</BibNumber>
+<StartTime>2024-04-06T10:01:00.000</StartTime>
+<FinishTime>2024-04-06T11:01:57.000</FinishTime>
+<Time>3657</Time>
+<TimeBehind>1245</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8606409</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>3887</Id>
+<Name>
+<Family>Miłaszewicz</Family>
+<Given>Magdalena</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>45</BibNumber>
+<StartTime>2024-04-06T10:03:00.000</StartTime>
+<FinishTime>2024-04-06T11:22:08.000</FinishTime>
+<Time>4748</Time>
+<TimeBehind>2336</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8220947</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Breckle</Family>
+<Given>Karla</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>40</BibNumber>
+<StartTime>2024-04-06T10:15:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8182122</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>7</Id>
+<Name>K20</Name>
+<ShortName>K20</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9007</Id>
+<Name>K20/21</Name>
+<Length>5030</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Lone</Given>
+</Name>
+<BirthDate>2005-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>50</BibNumber>
+<StartTime>2024-04-06T11:06:00.000</StartTime>
+<FinishTime>2024-04-06T11:47:50.000</FinishTime>
+<Time>2510</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8240405</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Fritz</Family>
+<Given>Marlene</Given>
+</Name>
+<BirthDate>2005-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>49</BibNumber>
+<StartTime>2024-04-06T11:00:00.000</StartTime>
+<FinishTime>2024-04-06T11:43:12.000</FinishTime>
+<Time>2592</Time>
+<TimeBehind>82</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8442448</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Klein</Family>
+<Given>Franka</Given>
+</Name>
+<BirthDate>2004-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>51</BibNumber>
+<StartTime>2024-04-06T10:58:00.000</StartTime>
+<FinishTime>2024-04-06T11:51:21.000</FinishTime>
+<Time>3201</Time>
+<TimeBehind>691</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8523555</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kärger</Family>
+<Given>Eline</Given>
+</Name>
+<BirthDate>2005-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>48</BibNumber>
+<StartTime>2024-04-06T11:02:00.000</StartTime>
+<FinishTime>2024-04-06T11:56:36.000</FinishTime>
+<Time>3276</Time>
+<TimeBehind>766</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8160305</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Olsen</Family>
+<Given>Liv Grete</Given>
+</Name>
+<BirthDate>2004-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>52</BibNumber>
+<StartTime>2024-04-06T10:50:00.000</StartTime>
+<FinishTime>2024-04-06T11:45:28.000</FinishTime>
+<Time>3328</Time>
+<TimeBehind>818</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8606472</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>8</Id>
+<Name>K40</Name>
+<ShortName>K40</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9004</Id>
+<Name>KM14,M55/60,K35/40</Name>
+<Length>3500</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Ewert-Krzemieniewska</Family>
+<Given>Linda</Given>
+</Name>
+<BirthDate>1983-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>54</BibNumber>
+<StartTime>2024-04-06T10:24:00.000</StartTime>
+<FinishTime>2024-04-06T11:02:43.000</FinishTime>
+<Time>2323</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8648770</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Prątnicka</Family>
+<Given>Anita</Given>
+</Name>
+<BirthDate>1984-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>57</BibNumber>
+<StartTime>2024-04-06T10:18:00.000</StartTime>
+<FinishTime>2024-04-06T11:27:50.000</FinishTime>
+<Time>4190</Time>
+<TimeBehind>1867</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8650898</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Richter</Family>
+<Given>Myrea</Given>
+</Name>
+<BirthDate>1984-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>56</BibNumber>
+<StartTime>2024-04-06T10:22:00.000</StartTime>
+<FinishTime>2024-04-06T10:59:17.000</FinishTime>
+<Time>2237</Time>
+<TimeBehind>-86</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8455003</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>9</Id>
+<Name>K50</Name>
+<ShortName>K50</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9009</Id>
+<Name>M65/70,M75+/K45/50</Name>
+<Length>3140</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Klein</Family>
+<Given>Dana</Given>
+</Name>
+<BirthDate>1973-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>59</BibNumber>
+<StartTime>2024-04-06T10:43:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:06.000</FinishTime>
+<Time>2886</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8670957</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>10</Id>
+<Name>K55</Name>
+<ShortName>K55</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9010</Id>
+<Name>OPEN,K55+</Name>
+<Length>2600</Length>
+<NumberOfControls>10</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dydek</Family>
+<Given>Dorota</Given>
+</Name>
+<BirthDate>1968-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>11</Id>
+<Name>14ZBOT</Name>
+<ShortName>14ZBOT</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>63</BibNumber>
+<StartTime>2024-04-06T10:59:00.000</StartTime>
+<FinishTime>2024-04-06T12:08:19.000</FinishTime>
+<Time>4159</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8260711</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>11</Id>
+<Name>M10</Name>
+<ShortName>M10</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9002</Id>
+<Name>KM10</Name>
+<Length>2190</Length>
+<NumberOfControls>8</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>5540</Id>
+<Name>
+<Family>Mazan</Family>
+<Given>Kacper</Given>
+</Name>
+<BirthDate>2016-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>66</BibNumber>
+<StartTime>2024-04-06T10:21:00.000</StartTime>
+<FinishTime>2024-04-06T10:59:38.000</FinishTime>
+<Time>2318</Time>
+<TimeBehind>0</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8260715</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>12</Id>
+<Name>M10N</Name>
+<ShortName>M10N</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9001</Id>
+<Name>KM10N/Rodzinna</Name>
+<Length>2360</Length>
+<NumberOfControls>6</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>5158</Id>
+<Name>
+<Family>Klejna</Family>
+<Given>Aleksander</Given>
+</Name>
+<BirthDate>2015-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>70</BibNumber>
+<StartTime>2024-04-06T10:15:00.000</StartTime>
+<FinishTime>2024-04-06T10:35:24.000</FinishTime>
+<Time>1224</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8661472</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5821</Id>
+<Name>
+<Family>Możdzyński</Family>
+<Given>Julian</Given>
+</Name>
+<BirthDate>2014-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>69</BibNumber>
+<StartTime>2024-04-06T10:09:00.000</StartTime>
+<FinishTime>2024-04-06T10:37:01.000</FinishTime>
+<Time>1681</Time>
+<TimeBehind>457</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8500214</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5917</Id>
+<Name>
+<Family>Ciborowski</Family>
+<Given>Błażej</Given>
+</Name>
+<BirthDate>2017-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>177</BibNumber>
+<StartTime>2024-04-06T10:17:00.000</StartTime>
+<FinishTime>2024-04-06T10:50:18.000</FinishTime>
+<Time>1998</Time>
+<TimeBehind>774</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8661489</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Husiev</Family>
+<Given>Semen</Given>
+</Name>
+<BirthDate>2018-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>68</BibNumber>
+<StartTime>2024-04-06T10:13:00.000</StartTime>
+<FinishTime>2024-04-06T10:50:12.000</FinishTime>
+<Time>2232</Time>
+<TimeBehind>1008</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8500215</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6323</Id>
+<Name>
+<Family>Mądraszek</Family>
+<Given>Antoni</Given>
+</Name>
+<BirthDate>2017-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>67</BibNumber>
+<StartTime>2024-04-06T10:11:00.000</StartTime>
+<FinishTime>2024-04-06T10:50:16.000</FinishTime>
+<Time>2356</Time>
+<TimeBehind>1132</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8661483</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>13</Id>
+<Name>M12</Name>
+<ShortName>M12</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9003</Id>
+<Name>KM12</Name>
+<Length>2690</Length>
+<NumberOfControls>10</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Grünig</Family>
+<Given>Konrad</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>77</BibNumber>
+<StartTime>2024-04-06T10:43:00.000</StartTime>
+<FinishTime>2024-04-06T11:08:55.000</FinishTime>
+<Time>1555</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8240212</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6348</Id>
+<Name>
+<Family>Sokołowski</Family>
+<Given>Ignacy</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>71</BibNumber>
+<StartTime>2024-04-06T10:41:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:17.000</FinishTime>
+<Time>1757</Time>
+<TimeBehind>202</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8260736</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5923</Id>
+<Name>
+<Family>Łukijański</Family>
+<Given>Karol</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>80</BibNumber>
+<StartTime>2024-04-06T10:39:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:17.000</FinishTime>
+<Time>1877</Time>
+<TimeBehind>322</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8064566</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Fremder</Family>
+<Given>Liam</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>79</BibNumber>
+<StartTime>2024-04-06T10:35:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:39.000</FinishTime>
+<Time>1899</Time>
+<TimeBehind>344</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8503546</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6130</Id>
+<Name>
+<Family>Gogler</Family>
+<Given>Ernest</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>75</BibNumber>
+<StartTime>2024-04-06T10:29:00.000</StartTime>
+<FinishTime>2024-04-06T11:07:33.000</FinishTime>
+<Time>2313</Time>
+<TimeBehind>758</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8260748</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kääriäinen</Family>
+<Given>Otto</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>78</BibNumber>
+<StartTime>2024-04-06T10:27:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:43.000</FinishTime>
+<Time>2383</Time>
+<TimeBehind>828</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8606448</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6131</Id>
+<Name>
+<Family>Gradek</Family>
+<Given>Jerzy</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>76</BibNumber>
+<StartTime>2024-04-06T10:52:03.000</StartTime>
+<FinishTime>2024-04-06T11:32:50.000</FinishTime>
+<Time>2447</Time>
+<TimeBehind>892</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8260761</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6354</Id>
+<Name>
+<Family>Sokołowski</Family>
+<Given>Antoni</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>73</BibNumber>
+<StartTime>2024-04-06T10:37:00.000</StartTime>
+<FinishTime>2024-04-06T11:19:52.000</FinishTime>
+<Time>2572</Time>
+<TimeBehind>1017</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8260714</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5149</Id>
+<Name>
+<Family>Ciborowski</Family>
+<Given>Borys</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>81</BibNumber>
+<StartTime>2024-04-06T10:31:00.000</StartTime>
+<FinishTime>2024-04-06T10:46:37.000</FinishTime>
+<Time>937</Time>
+<TimeBehind>-618</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8661477</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6347</Id>
+<Name>
+<Family>Jobs</Family>
+<Given>Mateusz</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>72</BibNumber>
+<StartTime>2024-04-06T10:33:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6353</Id>
+<Name>
+<Family>Sudół</Family>
+<Given>Aleksander</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>74</BibNumber>
+<StartTime>2024-04-06T10:45:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>14</Id>
+<Name>M14</Name>
+<ShortName>M14</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9004</Id>
+<Name>KM14,M55/60,K35/40</Name>
+<Length>3500</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Bader</Family>
+<Given>Gustav</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>85</BibNumber>
+<StartTime>2024-04-06T10:42:00.000</StartTime>
+<FinishTime>2024-04-06T11:15:26.000</FinishTime>
+<Time>2006</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8421240</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Klein</Family>
+<Given>Aiko</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>87</BibNumber>
+<StartTime>2024-04-06T10:32:00.000</StartTime>
+<FinishTime>2024-04-06T11:11:48.000</FinishTime>
+<Time>2388</Time>
+<TimeBehind>382</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8234308</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Großmann</Family>
+<Given>Moritz</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>86</BibNumber>
+<StartTime>2024-04-06T10:44:00.000</StartTime>
+<FinishTime>2024-04-06T11:24:24.000</FinishTime>
+<Time>2424</Time>
+<TimeBehind>418</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8204003</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5162</Id>
+<Name>
+<Family>Bruzi</Family>
+<Given>Jeremiasz</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>94</BibNumber>
+<StartTime>2024-04-06T10:34:00.000</StartTime>
+<FinishTime>2024-04-06T11:17:55.000</FinishTime>
+<Time>2635</Time>
+<TimeBehind>629</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8661474</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lange</Family>
+<Given>Marius</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>84</BibNumber>
+<StartTime>2024-04-06T10:38:00.000</StartTime>
+<FinishTime>2024-04-06T11:22:26.000</FinishTime>
+<Time>2666</Time>
+<TimeBehind>660</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8234313</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5820</Id>
+<Name>
+<Family>Klejna</Family>
+<Given>Jakub</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>93</BibNumber>
+<StartTime>2024-04-06T10:30:00.000</StartTime>
+<FinishTime>2024-04-06T11:17:54.000</FinishTime>
+<Time>2874</Time>
+<TimeBehind>868</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8032126</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4919</Id>
+<Name>
+<Family>Szutko</Family>
+<Given>Aleksander</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>88</BibNumber>
+<StartTime>2024-04-06T10:48:00.000</StartTime>
+<FinishTime>2024-04-06T11:41:31.000</FinishTime>
+<Time>3211</Time>
+<TimeBehind>1205</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8650896</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5829</Id>
+<Name>
+<Family>Ikiert</Family>
+<Given>Michał</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>91</BibNumber>
+<StartTime>2024-04-06T10:46:00.000</StartTime>
+<FinishTime>2024-04-06T11:41:33.000</FinishTime>
+<Time>3333</Time>
+<TimeBehind>1327</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8032160</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5900</Id>
+<Name>
+<Family>Andrzejewski</Family>
+<Given>Szymon</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>92</BibNumber>
+<StartTime>2024-04-06T10:52:00.000</StartTime>
+<FinishTime>2024-04-06T11:48:22.000</FinishTime>
+<Time>3382</Time>
+<TimeBehind>1376</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8661479</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4665</Id>
+<Name>
+<Family>Młynarczyk</Family>
+<Given>Wiktor</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>90</BibNumber>
+<StartTime>2024-04-06T10:40:00.000</StartTime>
+<FinishTime>2024-04-06T11:36:37.000</FinishTime>
+<Time>3397</Time>
+<TimeBehind>1391</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8661473</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6351</Id>
+<Name>
+<Family>Bąbel</Family>
+<Given>Bartosz</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>83</BibNumber>
+<StartTime>2024-04-06T10:28:00.000</StartTime>
+<FinishTime>2024-04-06T11:30:14.000</FinishTime>
+<Time>3734</Time>
+<TimeBehind>1728</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8260750</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Ewert-Krzemieniewski</Family>
+<Given>Ignacy</Given>
+</Name>
+<BirthDate>2010-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>82</BibNumber>
+<StartTime>2024-04-06T10:50:00.000</StartTime>
+<FinishTime>2024-04-06T12:37:04.000</FinishTime>
+<Time>6424</Time>
+<TimeBehind>4418</TimeBehind>
+<Position>12</Position>
+<Status>OK</Status>
+<ControlCard>8260739</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6224</Id>
+<Name>
+<Family>Prątnicki</Family>
+<Given>Kornel</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>89</BibNumber>
+<StartTime>2024-04-06T10:36:00.000</StartTime>
+<FinishTime>2024-04-06T12:41:39.000</FinishTime>
+<Time>7539</Time>
+<TimeBehind>5533</TimeBehind>
+<Position>13</Position>
+<Status>OK</Status>
+<ControlCard>8148613</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>15</Id>
+<Name>M16</Name>
+<ShortName>M16</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9005</Id>
+<Name>KM16/M45/50</Name>
+<Length>4230</Length>
+<NumberOfControls>16</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Doetsch</Family>
+<Given>Julian</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>100</BibNumber>
+<StartTime>2024-04-06T10:53:00.000</StartTime>
+<FinishTime>2024-04-06T11:20:52.000</FinishTime>
+<Time>1672</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8303081</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Schmidt</Family>
+<Given>Daniel</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>99</BibNumber>
+<StartTime>2024-04-06T10:37:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:13.000</FinishTime>
+<Time>1993</Time>
+<TimeBehind>321</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8019922</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Jobke</Family>
+<Given>Karl Rudolf</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>102</BibNumber>
+<StartTime>2024-04-06T10:57:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:07.000</FinishTime>
+<Time>2047</Time>
+<TimeBehind>375</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8008036</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Weinert</Family>
+<Given>Tim</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>104</BibNumber>
+<StartTime>2024-04-06T10:47:00.000</StartTime>
+<FinishTime>2024-04-06T11:23:45.000</FinishTime>
+<Time>2205</Time>
+<TimeBehind>533</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8654845</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kuntze</Family>
+<Given>Moritz</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>105</BibNumber>
+<StartTime>2024-04-06T10:33:00.000</StartTime>
+<FinishTime>2024-04-06T11:09:56.000</FinishTime>
+<Time>2216</Time>
+<TimeBehind>544</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8011953</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kumbier</Family>
+<Given>Lionel</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>106</BibNumber>
+<StartTime>2024-04-06T10:41:00.000</StartTime>
+<FinishTime>2024-04-06T11:18:37.000</FinishTime>
+<Time>2257</Time>
+<TimeBehind>585</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8118208</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Barchfeld</Family>
+<Given>Ben</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>97</BibNumber>
+<StartTime>2024-04-06T10:39:00.000</StartTime>
+<FinishTime>2024-04-06T11:19:45.000</FinishTime>
+<Time>2445</Time>
+<TimeBehind>773</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8501955</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Brill</Family>
+<Given>Valentin</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>95</BibNumber>
+<StartTime>2024-04-06T10:43:00.000</StartTime>
+<FinishTime>2024-04-06T11:24:03.000</FinishTime>
+<Time>2463</Time>
+<TimeBehind>791</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8402055</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kunckel</Family>
+<Given>Raphael</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>101</BibNumber>
+<StartTime>2024-04-06T10:45:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:23.000</FinishTime>
+<Time>2783</Time>
+<TimeBehind>1111</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8005329</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dielitzsch</Family>
+<Given>Timm</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>96</BibNumber>
+<StartTime>2024-04-06T10:35:00.000</StartTime>
+<FinishTime>2024-04-06T11:29:51.000</FinishTime>
+<Time>3291</Time>
+<TimeBehind>1619</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8119901</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4142</Id>
+<Name>
+<Family>Duda</Family>
+<Given>Łukasz</Given>
+</Name>
+<BirthDate>2011-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>107</BibNumber>
+<StartTime>2024-04-06T10:49:00.000</StartTime>
+<FinishTime>2024-04-06T11:47:53.000</FinishTime>
+<Time>3533</Time>
+<TimeBehind>1861</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8502522</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Saupe</Family>
+<Given>Emil</Given>
+</Name>
+<BirthDate>2009-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>98</BibNumber>
+<StartTime>2024-04-06T10:51:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8401120</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lucke</Family>
+<Given>Julius</Given>
+</Name>
+<BirthDate>2008-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>103</BibNumber>
+<StartTime>2024-04-06T10:55:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8077966</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>16</Id>
+<Name>M18</Name>
+<ShortName>M18</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9006</Id>
+<Name>KM18,M35/40</Name>
+<Length>4860</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dequiedt</Family>
+<Given>Loic</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>115</BibNumber>
+<StartTime>2024-04-06T11:23:00.000</StartTime>
+<FinishTime>2024-04-06T11:54:33.000</FinishTime>
+<Time>1893</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8635837</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Saupe</Family>
+<Given>David</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>114</BibNumber>
+<StartTime>2024-04-06T11:03:00.000</StartTime>
+<FinishTime>2024-04-06T11:35:48.000</FinishTime>
+<Time>1968</Time>
+<TimeBehind>75</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8606416</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Wetzel</Family>
+<Given>Niklas</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>112</BibNumber>
+<StartTime>2024-04-06T11:19:00.000</StartTime>
+<FinishTime>2024-04-06T11:52:15.000</FinishTime>
+<Time>1995</Time>
+<TimeBehind>102</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8606476</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kunckel</Family>
+<Given>Vincent</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>116</BibNumber>
+<StartTime>2024-04-06T11:05:00.000</StartTime>
+<FinishTime>2024-04-06T11:38:43.000</FinishTime>
+<Time>2023</Time>
+<TimeBehind>130</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8606406</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Drechsler</Family>
+<Given>Jakob</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>110</BibNumber>
+<StartTime>2024-04-06T11:09:00.000</StartTime>
+<FinishTime>2024-04-06T11:43:12.000</FinishTime>
+<Time>2052</Time>
+<TimeBehind>159</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8606411</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4785</Id>
+<Name>
+<Family>Kociuba</Family>
+<Given>Kajetan</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>8</Id>
+<Name>WKS Śląsk, Wrocław</Name>
+<ShortName>WKS Śląsk, Wrocław</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>108</BibNumber>
+<StartTime>2024-04-06T11:17:00.000</StartTime>
+<FinishTime>2024-04-06T11:51:19.000</FinishTime>
+<Time>2059</Time>
+<TimeBehind>166</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8003946</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Mühlstädt</Family>
+<Given>Lennart</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>111</BibNumber>
+<StartTime>2024-04-06T11:13:00.000</StartTime>
+<FinishTime>2024-04-06T11:48:09.000</FinishTime>
+<Time>2109</Time>
+<TimeBehind>216</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8000894</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Baath</Family>
+<Given>Ole</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>117</BibNumber>
+<StartTime>2024-04-06T11:15:00.000</StartTime>
+<FinishTime>2024-04-06T11:51:12.000</FinishTime>
+<Time>2172</Time>
+<TimeBehind>279</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8130206</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kögler</Family>
+<Given>Jonas</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>113</BibNumber>
+<StartTime>2024-04-06T11:21:00.000</StartTime>
+<FinishTime>2024-04-06T11:59:08.000</FinishTime>
+<Time>2288</Time>
+<TimeBehind>395</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8121006</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Schäfer</Family>
+<Given>Tomas</Given>
+</Name>
+<BirthDate>2007-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>109</BibNumber>
+<StartTime>2024-04-06T11:11:00.000</StartTime>
+<FinishTime>2024-04-06T11:53:25.000</FinishTime>
+<Time>2545</Time>
+<TimeBehind>652</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8000897</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4829</Id>
+<Name>
+<Family>Dubro</Family>
+<Given>Lev</Given>
+</Name>
+<BirthDate>2006-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>118</BibNumber>
+<StartTime>2024-04-06T11:07:00.000</StartTime>
+<FinishTime>2024-04-06T12:14:23.000</FinishTime>
+<Time>4043</Time>
+<TimeBehind>2150</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8650883</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>17</Id>
+<Name>M21</Name>
+<ShortName>M21</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9008</Id>
+<Name>M20/21</Name>
+<Length>6260</Length>
+<NumberOfControls>24</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Marek</Given>
+</Name>
+<BirthDate>2003-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>124</BibNumber>
+<StartTime>2024-04-06T10:43:00.000</StartTime>
+<FinishTime>2024-04-06T11:20:10.000</FinishTime>
+<Time>2230</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8211203</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kundisch</Family>
+<Given>Wieland</Given>
+</Name>
+<BirthDate>1985-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>129</BibNumber>
+<StartTime>2024-04-06T10:23:00.000</StartTime>
+<FinishTime>2024-04-06T11:03:50.000</FinishTime>
+<Time>2450</Time>
+<TimeBehind>220</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8606454</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Scheuermann</Family>
+<Given>Martin</Given>
+</Name>
+<BirthDate>2002-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>127</BibNumber>
+<StartTime>2024-04-06T10:27:00.000</StartTime>
+<FinishTime>2024-04-06T11:07:59.000</FinishTime>
+<Time>2459</Time>
+<TimeBehind>229</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8606490</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kunckel</Family>
+<Given>Konstantin</Given>
+</Name>
+<BirthDate>2003-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>125</BibNumber>
+<StartTime>2024-04-06T10:47:00.000</StartTime>
+<FinishTime>2024-04-06T11:28:46.000</FinishTime>
+<Time>2506</Time>
+<TimeBehind>276</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8606458</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Borrmann</Family>
+<Given>Malte</Given>
+</Name>
+<BirthDate>2003-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>123</BibNumber>
+<StartTime>2024-04-06T10:31:00.000</StartTime>
+<FinishTime>2024-04-06T11:20:23.000</FinishTime>
+<Time>2963</Time>
+<TimeBehind>733</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8606466</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kielb</Family>
+<Given>Karol</Given>
+</Name>
+<BirthDate>2002-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>126</BibNumber>
+<StartTime>2024-04-06T10:37:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:33.000</FinishTime>
+<Time>3273</Time>
+<TimeBehind>1043</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8606486</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5006</Id>
+<Name>
+<Family>Fleiss</Family>
+<Given>Sebastian</Given>
+</Name>
+<BirthDate>1996-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>120</BibNumber>
+<StartTime>2024-04-06T10:25:00.000</StartTime>
+<FinishTime>2024-04-06T11:20:30.000</FinishTime>
+<Time>3330</Time>
+<TimeBehind>1100</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8088082</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>1425</Id>
+<Name>
+<Family>Sawościanik</Family>
+<Given>Jakub</Given>
+</Name>
+<BirthDate>1998-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>130</BibNumber>
+<StartTime>2024-04-06T10:29:00.000</StartTime>
+<FinishTime>2024-04-06T11:25:00.000</FinishTime>
+<Time>3360</Time>
+<TimeBehind>1130</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8501968</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Weinert</Family>
+<Given>Florian</Given>
+</Name>
+<BirthDate>2005-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>121</BibNumber>
+<StartTime>2024-04-06T10:45:00.000</StartTime>
+<FinishTime>2024-04-06T11:51:53.000</FinishTime>
+<Time>4013</Time>
+<TimeBehind>1783</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8606429</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6227</Id>
+<Name>
+<Family>Belnik</Family>
+<Given>Michał</Given>
+</Name>
+<BirthDate>1991-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>131</BibNumber>
+<StartTime>2024-04-06T10:41:00.000</StartTime>
+<FinishTime>2024-04-06T11:49:14.000</FinishTime>
+<Time>4094</Time>
+<TimeBehind>1864</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8500634</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>1319</Id>
+<Name>
+<Family>Mazan</Family>
+<Given>Bartłomiej</Given>
+</Name>
+<BirthDate>1992-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>190</BibNumber>
+<StartTime>2024-04-06T11:06:24.000</StartTime>
+<FinishTime>2024-04-06T12:00:42.000</FinishTime>
+<Time>3258</Time>
+<TimeBehind>1028</TimeBehind>
+<Status>NotCompeting</Status>
+<ControlCard>8260729</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lucke</Family>
+<Given>Moritz</Given>
+</Name>
+<BirthDate>2004-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>122</BibNumber>
+<StartTime>2024-04-06T10:39:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8606466</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Gawlitza</Family>
+<Given>Franz</Given>
+</Name>
+<BirthDate>1999-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>128</BibNumber>
+<StartTime>2024-04-06T10:35:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8606401</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dydek</Family>
+<Given>Arkadiusz</Given>
+</Name>
+<BirthDate>1993-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>11</Id>
+<Name>14ZBOT</Name>
+<ShortName>14ZBOT</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>119</BibNumber>
+<StartTime>2024-04-06T10:33:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>18</Id>
+<Name>M40</Name>
+<ShortName>M40</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9006</Id>
+<Name>KM18,M35/40</Name>
+<Length>4860</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Leideck</Family>
+<Given>Karsten</Given>
+</Name>
+<BirthDate>1986-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>136</BibNumber>
+<StartTime>2024-04-06T10:36:00.000</StartTime>
+<FinishTime>2024-04-06T11:12:15.000</FinishTime>
+<Time>2175</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8060305</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Richter</Family>
+<Given>Alexander</Given>
+</Name>
+<BirthDate>1983-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>138</BibNumber>
+<StartTime>2024-04-06T10:44:00.000</StartTime>
+<FinishTime>2024-04-06T11:21:11.000</FinishTime>
+<Time>2231</Time>
+<TimeBehind>56</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8455004</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>von Dalowski</Family>
+<Given>Jan</Given>
+</Name>
+<BirthDate>1984-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>137</BibNumber>
+<StartTime>2024-04-06T10:40:00.000</StartTime>
+<FinishTime>2024-04-06T11:19:43.000</FinishTime>
+<Time>2383</Time>
+<TimeBehind>208</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8060284</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kołucki</Family>
+<Given>Arkadiusz</Given>
+</Name>
+<BirthDate>1984-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>20</Id>
+<Name>12BZ</Name>
+<ShortName>12BZ</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>144</BibNumber>
+<StartTime>2024-04-06T10:50:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:24.000</FinishTime>
+<Time>2484</Time>
+<TimeBehind>309</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8648774</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4542</Id>
+<Name>
+<Family>Wojciech</Family>
+<Given>Sebastian</Given>
+</Name>
+<BirthDate>1983-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>21</Id>
+<Name>KS Hades, Poznań</Name>
+<ShortName>KS Hades, Poznań</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>145</BibNumber>
+<StartTime>2024-04-06T10:30:00.000</StartTime>
+<FinishTime>2024-04-06T11:11:46.000</FinishTime>
+<Time>2506</Time>
+<TimeBehind>331</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8229201</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6250</Id>
+<Name>
+<Family>Musiał</Family>
+<Given>Krzysztof</Given>
+</Name>
+<BirthDate>1979-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>17</Id>
+<Name>Indywidualni Zachodniopomorski</Name>
+<ShortName>Indywidualni Zachodniopomorski</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>139</BibNumber>
+<StartTime>2024-04-06T10:22:00.000</StartTime>
+<FinishTime>2024-04-06T11:06:52.000</FinishTime>
+<Time>2692</Time>
+<TimeBehind>517</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8007737</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>BAŁDYGA</Family>
+<Given>Daniel</Given>
+</Name>
+<BirthDate>1980-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>12</Id>
+<Name>CSB DRAWSKO</Name>
+<ShortName>CSB DRAWSKO</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>141</BibNumber>
+<StartTime>2024-04-06T10:48:00.000</StartTime>
+<FinishTime>2024-04-06T11:36:07.000</FinishTime>
+<Time>2887</Time>
+<TimeBehind>712</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8009221</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>3906</Id>
+<Name>
+<Family>Małecki</Family>
+<Given>Bartłomiej</Given>
+</Name>
+<BirthDate>1979-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>14</Id>
+<Name>Indywidualny lubuskie</Name>
+<ShortName>Indywidualny lubuskie</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>133</BibNumber>
+<StartTime>2024-04-06T10:32:00.000</StartTime>
+<FinishTime>2024-04-06T11:27:35.000</FinishTime>
+<Time>3335</Time>
+<TimeBehind>1160</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8501431</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>GUZAL</Family>
+<Given>Kamil</Given>
+</Name>
+<BirthDate>1987-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>15</Id>
+<Name>100. bł/UKS Dębołęka</Name>
+<ShortName>100. bł/UKS Dębołęka</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>134</BibNumber>
+<StartTime>2024-04-06T10:42:00.000</StartTime>
+<FinishTime>2024-04-06T11:38:50.000</FinishTime>
+<Time>3410</Time>
+<TimeBehind>1235</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8648756</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>FAMULSKI</Family>
+<Given>Cezary</Given>
+</Name>
+<BirthDate>1981-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>18</Id>
+<Name>8 Pułk Przeciwlotniczy KOSZALI</Name>
+<ShortName>8 Pułk Przeciwlotniczy KOSZALI</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>140</BibNumber>
+<StartTime>2024-04-06T10:28:00.000</StartTime>
+<FinishTime>2024-04-06T11:32:39.000</FinishTime>
+<Time>3879</Time>
+<TimeBehind>1704</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8521996</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>1536</Id>
+<Name>
+<Family>Stachowski</Family>
+<Given>Paweł</Given>
+</Name>
+<BirthDate>1982-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>14</Id>
+<Name>Indywidualny lubuskie</Name>
+<ShortName>Indywidualny lubuskie</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>146</BibNumber>
+<StartTime>2024-04-06T10:38:00.000</StartTime>
+<FinishTime>2024-04-06T11:56:31.000</FinishTime>
+<Time>4711</Time>
+<TimeBehind>2536</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8640920</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Marcin</Family>
+<Given>Filipek</Given>
+</Name>
+<BirthDate>1983-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>175</BibNumber>
+<StartTime>2024-04-06T10:46:00.000</StartTime>
+<FinishTime>2024-04-06T12:14:58.000</FinishTime>
+<Time>5338</Time>
+<TimeBehind>3163</TimeBehind>
+<Position>12</Position>
+<Status>OK</Status>
+<ControlCard>8260728</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Mendak</Family>
+<Given>Tomasz</Given>
+</Name>
+<BirthDate>1981-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>16</Id>
+<Name>12 BZ</Name>
+<ShortName>12 BZ</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>135</BibNumber>
+<StartTime>2024-04-06T10:24:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8648754</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5911</Id>
+<Name>
+<Family>Dzietczyk</Family>
+<Given>Kamil</Given>
+</Name>
+<BirthDate>1983-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>142</BibNumber>
+<StartTime>2024-04-06T10:34:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8032148</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dejewski</Family>
+<Given>Arkadiusz</Given>
+</Name>
+<BirthDate>1980-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>19</Id>
+<Name>Niezszeszony</Name>
+<ShortName>Niezszeszony</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>143</BibNumber>
+<StartTime>2024-04-06T10:26:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>2217005</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>19</Id>
+<Name>M50</Name>
+<ShortName>M50</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9005</Id>
+<Name>KM16/M45/50</Name>
+<Length>4230</Length>
+<NumberOfControls>16</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>1302</Id>
+<Name>
+<Family>Rycerski</Family>
+<Given>Bogdan</Given>
+</Name>
+<BirthDate>1971-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>22</Id>
+<Name>EKO Gryf, Elbląg</Name>
+<ShortName>EKO Gryf, Elbląg</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>148</BibNumber>
+<StartTime>2024-04-06T11:20:00.000</StartTime>
+<FinishTime>2024-04-06T12:03:14.000</FinishTime>
+<Time>2594</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8061271</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lenk</Family>
+<Given>Andreas</Given>
+</Name>
+<BirthDate>1973-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>152</BibNumber>
+<StartTime>2024-04-06T11:14:00.000</StartTime>
+<FinishTime>2024-04-06T11:57:52.000</FinishTime>
+<Time>2632</Time>
+<TimeBehind>38</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8606461</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>KRZYMINIEWSKI</Family>
+<Given>Sławomir</Given>
+</Name>
+<BirthDate>1973-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>15</Id>
+<Name>100. bł/UKS Dębołęka</Name>
+<ShortName>100. bł/UKS Dębołęka</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>149</BibNumber>
+<StartTime>2024-04-06T11:10:00.000</StartTime>
+<FinishTime>2024-04-06T12:05:52.000</FinishTime>
+<Time>3352</Time>
+<TimeBehind>758</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8071973</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>POMAGALSKI</Family>
+<Given>Paweł</Given>
+</Name>
+<BirthDate>1972-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>15</Id>
+<Name>100. bł/UKS Dębołęka</Name>
+<ShortName>100. bł/UKS Dębołęka</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>150</BibNumber>
+<StartTime>2024-04-06T11:04:00.000</StartTime>
+<FinishTime>2024-04-06T12:05:56.000</FinishTime>
+<Time>3716</Time>
+<TimeBehind>1122</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>7208172</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>5439</Id>
+<Name>
+<Family>Czerepiuk</Family>
+<Given>Krzysztof</Given>
+</Name>
+<BirthDate>1970-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>23</Id>
+<Name>Indywidualny Kujawsko-Pomorski</Name>
+<ShortName>Indywidualny Kujawsko-Pomorski</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>155</BibNumber>
+<StartTime>2024-04-06T11:08:00.000</StartTime>
+<FinishTime>2024-04-06T12:20:30.000</FinishTime>
+<Time>4350</Time>
+<TimeBehind>1756</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8260709</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Wielgoszewski</Family>
+<Given>Bartosz</Given>
+</Name>
+<BirthDate>1974-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>11</Id>
+<Name>14ZBOT</Name>
+<ShortName>14ZBOT</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>147</BibNumber>
+<StartTime>2024-04-06T11:24:00.000</StartTime>
+<FinishTime>2024-04-06T12:42:46.000</FinishTime>
+<Time>4726</Time>
+<TimeBehind>2132</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8260783</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>3661</Id>
+<Name>
+<Family>Dobiecki</Family>
+<Given>Artur</Given>
+</Name>
+<BirthDate>1973-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>17</Id>
+<Name>Indywidualni Zachodniopomorski</Name>
+<ShortName>Indywidualni Zachodniopomorski</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>154</BibNumber>
+<StartTime>2024-04-06T11:22:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8506836</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Tilo</Given>
+</Name>
+<BirthDate>1970-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>153</BibNumber>
+<StartTime>2024-04-06T11:18:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8027022</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>21</Id>
+<Name>M70</Name>
+<ShortName>M70</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9009</Id>
+<Name>M65/70,M75+/K45/50</Name>
+<Length>3140</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kundisch</Family>
+<Given>Diethard</Given>
+</Name>
+<BirthDate>1954-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>163</BibNumber>
+<StartTime>2024-04-06T10:19:00.000</StartTime>
+<FinishTime>2024-04-06T11:01:32.000</FinishTime>
+<Time>2552</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8644833</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>22</Id>
+<Name>M75</Name>
+<ShortName>M75</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9009</Id>
+<Name>M65/70,M75+/K45/50</Name>
+<Length>3140</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>884</Id>
+<Name>
+<Family>Królikowski</Family>
+<Given>Władysław</Given>
+</Name>
+<BirthDate>1947-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>165</BibNumber>
+<StartTime>2024-04-06T10:03:00.000</StartTime>
+<FinishTime>2024-04-06T10:53:33.000</FinishTime>
+<Time>3033</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8010122</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>886</Id>
+<Name>
+<Family>Wołochowicz</Family>
+<Given>Władysław</Given>
+</Name>
+<BirthDate>1947-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>166</BibNumber>
+<StartTime>2024-04-06T10:05:00.000</StartTime>
+<FinishTime>2024-04-06T11:10:57.000</FinishTime>
+<Time>3957</Time>
+<TimeBehind>924</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>427591</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>23</Id>
+<Name>OPEN</Name>
+<ShortName>OPEN</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9010</Id>
+<Name>OPEN,K55+</Name>
+<Length>2600</Length>
+<NumberOfControls>10</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lucke</Family>
+<Given>Jens</Given>
+</Name>
+<BirthDate>1973-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>169</BibNumber>
+<StartTime>2024-04-06T10:08:00.000</StartTime>
+<FinishTime>2024-04-06T10:37:13.000</FinishTime>
+<Time>1753</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8215333</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Gogler</Family>
+<Given>Wojciech</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>176</BibNumber>
+<StartTime>2024-04-06T10:15:00.000</StartTime>
+<FinishTime>2024-04-06T11:12:51.000</FinishTime>
+<Time>3471</Time>
+<TimeBehind>1718</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8260745</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Jezierska</Family>
+<Given>Zofia</Given>
+</Name>
+<BirthDate>2012-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>170</BibNumber>
+<StartTime>2024-04-06T10:22:02.000</StartTime>
+<FinishTime>2024-04-06T11:22:46.000</FinishTime>
+<Time>3644</Time>
+<TimeBehind>1891</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8661481</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Banasiak</Family>
+<Given>Fabian</Given>
+</Name>
+<BirthDate>2013-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>171</BibNumber>
+<StartTime>2024-04-06T10:22:03.000</StartTime>
+<FinishTime>2024-04-06T11:22:50.000</FinishTime>
+<Time>3647</Time>
+<TimeBehind>1894</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8032153</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Oertelt</Family>
+<Given>Chalia</Given>
+</Name>
+<BirthDate>2003-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>168</BibNumber>
+<StartTime>2024-04-06T10:02:00.000</StartTime>
+<FinishTime>2024-04-06T11:05:11.000</FinishTime>
+<Time>3791</Time>
+<TimeBehind>2038</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8150619</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Worobiec</Family>
+<Given>Maksymilian</Given>
+</Name>
+<BirthDate>1989-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>13</Id>
+<Name>indywidualnie</Name>
+<ShortName>indywidualnie</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>65</BibNumber>
+<StartTime>2024-04-06T10:06:00.000</StartTime>
+<FinishTime>2024-04-06T10:45:23.000</FinishTime>
+<Time>2363</Time>
+<TimeBehind>610</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8260791</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>POTAPSKA</Family>
+<Given>Katarzyna</Given>
+</Name>
+<BirthDate>1990-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>12</Id>
+<Name>CSB DRAWSKO</Name>
+<ShortName>CSB DRAWSKO</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>64</BibNumber>
+<StartTime>2024-04-06T10:10:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>24</Id>
+<Name>RODZINNA</Name>
+<ShortName>RODZINNA</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9001</Id>
+<Name>KM10N/Rodzinna</Name>
+<Length>2360</Length>
+<NumberOfControls>6</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Piątek</Family>
+<Given>Natalia</Given>
+</Name>
+<BirthDate>2016-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>173</BibNumber>
+<StartTime>2024-04-06T10:23:00.000</StartTime>
+<FinishTime>2024-04-06T10:44:27.000</FinishTime>
+<Time>1287</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8079952</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Stachowiak</Family>
+<Given>Jan</Given>
+</Name>
+<BirthDate>2015-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>172</BibNumber>
+<StartTime>2024-04-06T10:21:00.000</StartTime>
+<FinishTime>2024-04-06T10:44:05.000</FinishTime>
+<Time>1385</Time>
+<TimeBehind>98</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8220953</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dobrodziej</Family>
+<Given>Hanna</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>188</BibNumber>
+<StartTime>2024-04-06T10:09:54.000</StartTime>
+<FinishTime>2024-04-06T10:37:33.000</FinishTime>
+<Time>1659</Time>
+<TimeBehind>372</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8260784</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dobrodziej</Family>
+<Given>Jakub</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>186</BibNumber>
+<StartTime>2024-04-06T10:09:49.000</StartTime>
+<FinishTime>2024-04-06T10:37:39.000</FinishTime>
+<Time>1670</Time>
+<TimeBehind>383</TimeBehind>
+<Position>4</Position>
+<Status>OK</Status>
+<ControlCard>8260727</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dobrodziej</Family>
+<Given>Zofia</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>187</BibNumber>
+<StartTime>2024-04-06T10:09:44.000</StartTime>
+<FinishTime>2024-04-06T10:37:40.000</FinishTime>
+<Time>1676</Time>
+<TimeBehind>389</TimeBehind>
+<Position>5</Position>
+<Status>OK</Status>
+<ControlCard>8260703</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lewandowski</Family>
+<Given>Leon</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>181</BibNumber>
+<StartTime>2024-04-06T10:09:58.000</StartTime>
+<FinishTime>2024-04-06T10:38:07.000</FinishTime>
+<Time>1689</Time>
+<TimeBehind>402</TimeBehind>
+<Position>6</Position>
+<Status>OK</Status>
+<ControlCard>8260767</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dobrodziej</Family>
+<Given>Łukasz</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>189</BibNumber>
+<StartTime>2024-04-06T10:09:52.000</StartTime>
+<FinishTime>2024-04-06T10:38:06.000</FinishTime>
+<Time>1694</Time>
+<TimeBehind>407</TimeBehind>
+<Position>7</Position>
+<Status>OK</Status>
+<ControlCard>8260701</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lewandowski</Family>
+<Given>Daniel</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>179</BibNumber>
+<StartTime>2024-04-06T10:10:06.000</StartTime>
+<FinishTime>2024-04-06T10:42:51.000</FinishTime>
+<Time>1965</Time>
+<TimeBehind>678</TimeBehind>
+<Position>8</Position>
+<Status>OK</Status>
+<ControlCard>8260741</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Tumłowska</Family>
+<Given>Agnieszka</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>185</BibNumber>
+<StartTime>2024-04-06T10:10:02.000</StartTime>
+<FinishTime>2024-04-06T10:43:03.000</FinishTime>
+<Time>1981</Time>
+<TimeBehind>694</TimeBehind>
+<Position>9</Position>
+<Status>OK</Status>
+<ControlCard>8260716</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Lewandowska</Family>
+<Given>Agata</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>180</BibNumber>
+<StartTime>2024-04-06T10:09:41.000</StartTime>
+<FinishTime>2024-04-06T10:42:45.000</FinishTime>
+<Time>1984</Time>
+<TimeBehind>697</TimeBehind>
+<Position>10</Position>
+<Status>OK</Status>
+<ControlCard>8260775</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Tumłowska</Family>
+<Given>Zofia</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>184</BibNumber>
+<StartTime>2024-04-06T10:10:01.000</StartTime>
+<FinishTime>2024-04-06T10:43:07.000</FinishTime>
+<Time>1986</Time>
+<TimeBehind>699</TimeBehind>
+<Position>11</Position>
+<Status>OK</Status>
+<ControlCard>8260723</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Tumłowski</Family>
+<Given>Dawid</Given>
+</Name>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>183</BibNumber>
+<FinishTime>2024-04-06T10:42:55.000</FinishTime>
+<Status>MissingPunch</Status>
+<ControlCard>8260768</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>25</Id>
+<Name>K21</Name>
+<ShortName>K21</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9007</Id>
+<Name>K20/21</Name>
+<Length>5030</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Klüser</Family>
+<Given>Ellen</Given>
+</Name>
+<BirthDate>1999-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>53</BibNumber>
+<StartTime>2024-04-06T10:52:00.000</StartTime>
+<FinishTime>2024-04-06T11:31:23.000</FinishTime>
+<Time>2363</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8636972</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6355</Id>
+<Name>
+<Family>Cichy</Family>
+<Given>Beata</Given>
+</Name>
+<BirthDate>1993-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>46</BibNumber>
+<StartTime>2024-04-06T10:54:00.000</StartTime>
+<FinishTime>2024-04-06T12:13:21.000</FinishTime>
+<Time>4761</Time>
+<TimeBehind>2398</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8502113</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>3453</Id>
+<Name>
+<Family>Sadzikowska</Family>
+<Given>Magdalena</Given>
+</Name>
+<BirthDate>2003-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>9</Id>
+<Name>141 blp</Name>
+<ShortName>141 blp</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>47</BibNumber>
+<StartTime>2024-04-06T11:04:00.000</StartTime>
+<FinishTime>2024-04-06T12:24:44.000</FinishTime>
+<Time>4844</Time>
+<TimeBehind>2481</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8260721</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Parkhomenko</Family>
+<Given>Oleksandra</Given>
+</Name>
+<BirthDate>1989-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>26</Id>
+<Name>OLV Landshut</Name>
+<ShortName>OLV Landshut</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>174</BibNumber>
+<StartTime>2024-04-06T10:56:00.000</StartTime>
+<Status>DidNotStart</Status>
+<ControlCard>8110889</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>34</Id>
+<Name>K35</Name>
+<ShortName>K35</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9004</Id>
+<Name>KM14,M55/60,K35/40</Name>
+<Length>3500</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Kamińska</Family>
+<Given>Aneta</Given>
+</Name>
+<BirthDate>1987-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>55</BibNumber>
+<StartTime>2024-04-06T10:20:00.000</StartTime>
+<FinishTime>2024-04-06T11:30:28.000</FinishTime>
+<Time>4228</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8260770</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>35</Id>
+<Name>K45</Name>
+<ShortName>K45</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9009</Id>
+<Name>M65/70,M75+/K45/50</Name>
+<Length>3140</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Pompe</Family>
+<Given>Katja</Given>
+</Name>
+<BirthDate>1976-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>60</BibNumber>
+<StartTime>2024-04-06T10:39:00.000</StartTime>
+<FinishTime>2024-04-06T11:14:20.000</FinishTime>
+<Time>2120</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8200876</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>6231</Id>
+<Name>
+<Family>Szewczyk</Family>
+<Given>Joanna</Given>
+</Name>
+<BirthDate>1978-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>1</Id>
+<Name>MKS Skarmat, Toruń</Name>
+<ShortName>MKS Skarmat, Toruń</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>58</BibNumber>
+<StartTime>2024-04-06T10:41:00.000</StartTime>
+<FinishTime>2024-04-06T11:19:46.000</FinishTime>
+<Time>2326</Time>
+<TimeBehind>206</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8503899</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Wetzel</Family>
+<Given>Annegret</Given>
+</Name>
+<BirthDate>1976-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>5</Id>
+<Name>OSV Dresden</Name>
+<ShortName>OSV Dresden</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>61</BibNumber>
+<StartTime>2024-04-06T10:45:00.000</StartTime>
+<FinishTime>2024-04-06T11:25:19.000</FinishTime>
+<Time>2419</Time>
+<TimeBehind>299</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8070576</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dzietczyk</Family>
+<Given>Sylwia</Given>
+</Name>
+<BirthDate>1977-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>3</Id>
+<Name>KS Aktywne, Choszczno</Name>
+<ShortName>KS Aktywne, Choszczno</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>62</BibNumber>
+<StartTime>2024-04-06T10:47:00.000</StartTime>
+<Status>DidNotStart</Status>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>37</Id>
+<Name>M35</Name>
+<ShortName>M35</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9006</Id>
+<Name>KM18,M35/40</Name>
+<Length>4860</Length>
+<NumberOfControls>20</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Parciany</Family>
+<Given>Łukasz</Given>
+</Name>
+<BirthDate>1986-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>10</Id>
+<Name>Szczecin</Name>
+<ShortName>Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>132</BibNumber>
+<StartTime>2024-04-06T10:52:00.000</StartTime>
+<FinishTime>2024-04-06T12:14:59.000</FinishTime>
+<Time>4979</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8260738</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>38</Id>
+<Name>M45</Name>
+<ShortName>M45</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9005</Id>
+<Name>KM16/M45/50</Name>
+<Length>4230</Length>
+<NumberOfControls>16</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>2906</Id>
+<Name>
+<Family>Fiedorowicz</Family>
+<Given>Szczepan</Given>
+</Name>
+<BirthDate>1976-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>158</BibNumber>
+<StartTime>2024-04-06T11:16:00.000</StartTime>
+<FinishTime>2024-04-06T11:52:32.000</FinishTime>
+<Time>2192</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8220956</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Möser</Family>
+<Given>Uwe</Given>
+</Name>
+<BirthDate>1979-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>6</Id>
+<Name>Team Saxony</Name>
+<ShortName>Team Saxony</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>151</BibNumber>
+<StartTime>2024-04-06T11:02:00.000</StartTime>
+<FinishTime>2024-04-06T11:40:42.000</FinishTime>
+<Time>2322</Time>
+<TimeBehind>130</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>8665859</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>4529</Id>
+<Name>
+<Family>Duda</Family>
+<Given>Tomasz</Given>
+</Name>
+<BirthDate>1976-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>2</Id>
+<Name>UKS Traper, Złocieniec</Name>
+<ShortName>UKS Traper, Złocieniec</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>156</BibNumber>
+<StartTime>2024-04-06T11:06:00.000</StartTime>
+<FinishTime>2024-04-06T11:52:36.000</FinishTime>
+<Time>2796</Time>
+<TimeBehind>604</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>8032147</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Strzelec</Family>
+<Given>Tomasz</Given>
+</Name>
+<BirthDate>1975-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>24</Id>
+<Name>KB Hermes Gryfino</Name>
+<ShortName>KB Hermes Gryfino</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>157</BibNumber>
+<StartTime>2024-04-06T11:12:00.000</StartTime>
+<FinishTime>2024-04-06T12:04:18.000</FinishTime>
+<Time>3138</Time>
+<TimeBehind>946</TimeBehind>
+<Status>DidNotFinish</Status>
+<ControlCard>8260706</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>39</Id>
+<Name>M55</Name>
+<ShortName>M55</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9004</Id>
+<Name>KM14,M55/60,K35/40</Name>
+<Length>3500</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>887</Id>
+<Name>
+<Family>Bareja</Family>
+<Given>Sławomir</Given>
+</Name>
+<BirthDate>1966-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>4</Id>
+<Name>KOS BnO, Szczecin</Name>
+<ShortName>KOS BnO, Szczecin</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>161</BibNumber>
+<StartTime>2024-04-06T11:03:00.000</StartTime>
+<FinishTime>2024-04-06T11:46:25.000</FinishTime>
+<Time>2605</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>7205883</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>RAŹNY</Family>
+<Given>Krzysztof</Given>
+</Name>
+<BirthDate>1968-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>15</Id>
+<Name>100. bł/UKS Dębołęka</Name>
+<ShortName>100. bł/UKS Dębołęka</ShortName>
+<Country code="CZE">CZE</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>160</BibNumber>
+<StartTime>2024-04-06T11:07:00.000</StartTime>
+<FinishTime>2024-04-06T12:07:08.000</FinishTime>
+<Time>3608</Time>
+<TimeBehind>1003</TimeBehind>
+<Position>2</Position>
+<Status>OK</Status>
+<ControlCard>7208168</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Id>C32007</Id>
+<Name>
+<Family>Płonka</Family>
+<Given>Jacek</Given>
+</Name>
+<BirthDate>1967-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>1</Id>
+<Name>MKS Skarmat, Toruń</Name>
+<ShortName>MKS Skarmat, Toruń</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>159</BibNumber>
+<StartTime>2024-04-06T11:05:00.000</StartTime>
+<FinishTime>2024-04-06T12:17:18.000</FinishTime>
+<Time>4338</Time>
+<TimeBehind>1733</TimeBehind>
+<Position>3</Position>
+<Status>OK</Status>
+<ControlCard>435230</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+<PersonResult>
+<Person sex="M">
+<Name>
+<Family>Dequiedt</Family>
+<Given>Frank</Given>
+</Name>
+<BirthDate>1968-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>7</Id>
+<Name>Team Germany</Name>
+<ShortName>Team Germany</ShortName>
+<Country code="GER">GER</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>162</BibNumber>
+<StartTime>2024-04-06T11:01:00.000</StartTime>
+<FinishTime>2024-04-06T11:38:34.000</FinishTime>
+<Time>2254</Time>
+<TimeBehind>-351</TimeBehind>
+<Status>MissingPunch</Status>
+<ControlCard>8667654</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+<ClassResult>
+<Class resultListMode="Default" sex="M">
+<Id>40</Id>
+<Name>M65</Name>
+<ShortName>M65</ShortName>
+<Fee>
+<Name>Default</Name>
+<Amount>1.00</Amount>
+</Fee>
+<Fee>
+<Name>Startfee 2</Name>
+<Amount>0.00</Amount>
+</Fee>
+</Class>
+<Course>
+<Id>9009</Id>
+<Name>M65/70,M75+/K45/50</Name>
+<Length>3140</Length>
+<NumberOfControls>12</NumberOfControls>
+</Course>
+<PersonResult>
+<Person sex="M">
+<Id>5116</Id>
+<Name>
+<Family>Sikora</Family>
+<Given>Tomasz</Given>
+</Name>
+<BirthDate>1958-01-01</BirthDate>
+</Person>
+<Organisation>
+<Id>17</Id>
+<Name>Indywidualni Zachodniopomorski</Name>
+<ShortName>Indywidualni Zachodniopomorski</ShortName>
+<Country code="POL">POL</Country>
+</Organisation>
+<Result raceNumber="1">
+<BibNumber>164</BibNumber>
+<StartTime>2024-04-06T10:21:00.000</StartTime>
+<FinishTime>2024-04-06T11:38:05.000</FinishTime>
+<Time>4625</Time>
+<TimeBehind>0</TimeBehind>
+<Position>1</Position>
+<Status>OK</Status>
+<ControlCard>8506824</ControlCard>
+<AssignedFee>
+<Fee type="Normal">
+<Name>Actual</Name>
+<Amount>1.00</Amount>
+</Fee>
+</AssignedFee>
+</Result>
+</PersonResult>
+</ClassResult>
+</ResultList>

@@ -65,6 +65,7 @@ namespace EYOC_Team_Score
             exportTeamScoresIndividualDialog = new SaveFileDialog();
             exportTeamScoresTotalDialog = new SaveFileDialog();
             exportExcelDialog = new SaveFileDialog();
+            exportTeamScoresCSSDialog = new SaveFileDialog();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)eventBindingSource).BeginInit();
             tabs_TeamScore.SuspendLayout();
@@ -144,7 +145,8 @@ namespace EYOC_Team_Score
             tabs_TeamScore.Location = new Point(18, 146);
             tabs_TeamScore.Name = "tabs_TeamScore";
             tabs_TeamScore.SelectedIndex = 0;
-            tabs_TeamScore.Size = new Size(770, 573);
+            tabs_TeamScore.Size = new Size(1490, 573);
+            tabs_TeamScore.SizeMode = TabSizeMode.FillToRight;
             tabs_TeamScore.TabIndex = 5;
             // 
             // Total
@@ -153,7 +155,7 @@ namespace EYOC_Team_Score
             Total.Location = new Point(4, 24);
             Total.Name = "Total";
             Total.Padding = new Padding(3);
-            Total.Size = new Size(762, 545);
+            Total.Size = new Size(1482, 545);
             Total.TabIndex = 0;
             Total.Text = "Total";
             Total.UseVisualStyleBackColor = true;
@@ -166,7 +168,7 @@ namespace EYOC_Team_Score
             htmlPanel_Total.Dock = DockStyle.Fill;
             htmlPanel_Total.Location = new Point(3, 3);
             htmlPanel_Total.Name = "htmlPanel_Total";
-            htmlPanel_Total.Size = new Size(756, 539);
+            htmlPanel_Total.Size = new Size(1476, 539);
             htmlPanel_Total.TabIndex = 6;
             htmlPanel_Total.Text = null;
             // 
@@ -176,7 +178,7 @@ namespace EYOC_Team_Score
             IndividualPage.Location = new Point(4, 24);
             IndividualPage.Name = "IndividualPage";
             IndividualPage.Padding = new Padding(3);
-            IndividualPage.Size = new Size(762, 545);
+            IndividualPage.Size = new Size(1482, 545);
             IndividualPage.TabIndex = 1;
             IndividualPage.Text = "Detailed";
             IndividualPage.UseVisualStyleBackColor = true;
@@ -189,7 +191,7 @@ namespace EYOC_Team_Score
             htmlPanel_Individual.Dock = DockStyle.Fill;
             htmlPanel_Individual.Location = new Point(3, 3);
             htmlPanel_Individual.Name = "htmlPanel_Individual";
-            htmlPanel_Individual.Size = new Size(756, 539);
+            htmlPanel_Individual.Size = new Size(1476, 539);
             htmlPanel_Individual.TabIndex = 6;
             htmlPanel_Individual.Text = null;
             // 
@@ -213,7 +215,7 @@ namespace EYOC_Team_Score
             menuTop.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
             menuTop.Location = new Point(0, 0);
             menuTop.Name = "menuTop";
-            menuTop.Size = new Size(800, 24);
+            menuTop.Size = new Size(1531, 24);
             menuTop.TabIndex = 6;
             menuTop.Text = "menuStrip1";
             // 
@@ -230,14 +232,14 @@ namespace EYOC_Team_Score
             menuTop_OpenFile.ImageTransparentColor = Color.Magenta;
             menuTop_OpenFile.Name = "menuTop_OpenFile";
             menuTop_OpenFile.ShortcutKeys = Keys.Control | Keys.O;
-            menuTop_OpenFile.Size = new Size(219, 26);
+            menuTop_OpenFile.Size = new Size(215, 22);
             menuTop_OpenFile.Text = "&Import Result File";
             menuTop_OpenFile.Click += ImportFile_Click;
             // 
             // toolStripSeparator
             // 
             toolStripSeparator.Name = "toolStripSeparator";
-            toolStripSeparator.Size = new Size(216, 6);
+            toolStripSeparator.Size = new Size(212, 6);
             // 
             // menuTop_Export
             // 
@@ -245,9 +247,9 @@ namespace EYOC_Team_Score
             menuTop_Export.ImageTransparentColor = Color.Magenta;
             menuTop_Export.Name = "menuTop_Export";
             menuTop_Export.ShortcutKeys = Keys.Control | Keys.S;
-            menuTop_Export.Size = new Size(219, 26);
+            menuTop_Export.Size = new Size(215, 22);
             menuTop_Export.Text = "&Export Reports";
-            menuTop_Export.Click += ExportSheet_Click;
+            menuTop_Export.Click += ExportReport_Click;
             // 
             // menuTop_exportSheet
             // 
@@ -255,14 +257,14 @@ namespace EYOC_Team_Score
             menuTop_exportSheet.ImageTransparentColor = Color.Magenta;
             menuTop_exportSheet.Name = "menuTop_exportSheet";
             menuTop_exportSheet.ShortcutKeys = Keys.Control | Keys.E;
-            menuTop_exportSheet.Size = new Size(219, 26);
+            menuTop_exportSheet.Size = new Size(215, 22);
             menuTop_exportSheet.Text = "&Export Spreadsheet";
             menuTop_exportSheet.Click += ExportSheet_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(216, 6);
+            toolStripSeparator1.Size = new Size(212, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -271,7 +273,7 @@ namespace EYOC_Team_Score
             printToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printToolStripMenuItem.Name = "printToolStripMenuItem";
             printToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.P;
-            printToolStripMenuItem.Size = new Size(219, 26);
+            printToolStripMenuItem.Size = new Size(215, 22);
             printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -280,18 +282,18 @@ namespace EYOC_Team_Score
             printPreviewToolStripMenuItem.Image = (Image)resources.GetObject("printPreviewToolStripMenuItem.Image");
             printPreviewToolStripMenuItem.ImageTransparentColor = Color.Magenta;
             printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            printPreviewToolStripMenuItem.Size = new Size(219, 26);
+            printPreviewToolStripMenuItem.Size = new Size(215, 22);
             printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(216, 6);
+            toolStripSeparator2.Size = new Size(212, 6);
             // 
             // menuTop_Exit
             // 
             menuTop_Exit.Name = "menuTop_Exit";
-            menuTop_Exit.Size = new Size(219, 26);
+            menuTop_Exit.Size = new Size(215, 22);
             menuTop_Exit.Text = "E&xit";
             menuTop_Exit.Click += Exit_Click;
             // 
@@ -304,10 +306,10 @@ namespace EYOC_Team_Score
             // 
             // menuTop_Options
             // 
-            menuTop_Options.Enabled = false;
             menuTop_Options.Name = "menuTop_Options";
-            menuTop_Options.Size = new Size(116, 22);
+            menuTop_Options.Size = new Size(180, 22);
             menuTop_Options.Text = "&Options";
+            menuTop_Options.Click += Options_Click;
             // 
             // helpToolStripMenuItem
             // 
@@ -343,11 +345,16 @@ namespace EYOC_Team_Score
             exportExcelDialog.FileName = "teamscores.xlsx";
             exportExcelDialog.Filter = "Excel files|*.xlsx|All files|*.*";
             // 
+            // exportTeamScoresCSSDialog
+            // 
+            exportTeamScoresCSSDialog.FileName = "teamscore.css";
+            exportTeamScoresCSSDialog.Filter = "CSS files|*.css|All files|*.*";
+            // 
             // EYOCTeamScore
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 632);
+            ClientSize = new Size(1531, 733);
             Controls.Add(menuTop);
             Controls.Add(lbl_TeamScores);
             Controls.Add(tabs_TeamScore);
@@ -401,5 +408,6 @@ namespace EYOC_Team_Score
         private SaveFileDialog exportTeamScoresTotalDialog;
         private ToolStripMenuItem menuTop_exportSheet;
         private SaveFileDialog exportExcelDialog;
+        private SaveFileDialog exportTeamScoresCSSDialog;
     }
 }

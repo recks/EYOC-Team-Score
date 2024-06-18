@@ -1,13 +1,4 @@
 ﻿using EYOC_Team_Score.Model;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
 using System.Xml.Linq;
 
 namespace EYOC_Team_Score.Util
@@ -29,12 +20,16 @@ namespace EYOC_Team_Score.Util
 
                 // Build Event
                 var evt = doc.Element(ns + "ResultList").Element(ns + "Event");
+                if (evt.Element(ns + "Race") != null)
+                {
+                    evt = evt.Element(ns + "Race"); // For some reason this file is from a multi-day event. Shouldn't happen, but...
+                }
                 EventType eventType = doc.Descendants(ns + "TeamResult").Count() > 0 ? EventType.Relay : EventType.Individual;  // If it is Relay the file contains "TeamResult" elements.
                 Event @event = new Event()
                 {
-                    Id = (int)evt.Element(ns + "Id"),
+                    Id = evt.Element(ns + "Id") != null ? (int)evt.Element(ns + "Id") : new Random().Next(),
                     Date = DateOnly.Parse((string)evt.Element(ns + "StartTime").Element(ns + "Date")),
-                    Name = (string)evt.Element(ns + "Name"),
+                    Name = (string)evt.Element(ns + "Name") ?? "An Event",
                     Type = eventType
                 };
 
@@ -45,8 +40,8 @@ namespace EYOC_Team_Score.Util
                     XElement classElement = classResult.Element(ns + "Class");
                     Clazz clazz = new Clazz()
                     {
-                        Id = (int)classElement.Element(ns + "Id"),
-                        Name = (string)classElement.Element(ns + "Name")
+                        Id = classElement.Element(ns + "Id") != null ? (int)classElement.Element(ns + "Id") : new Random().Next(),
+                        Name = (string)classElement.Element(ns + "Name") ?? "A Class"
                     };
                     classes.Add(clazz);
 
@@ -62,7 +57,7 @@ namespace EYOC_Team_Score.Util
                                 var country = GetCountry(personResultElement.Element(ns + "Organisation"));
                                 PersonOrTeam person = new PersonOrTeam()
                                 {
-                                    Id = (int)personElement.Element(ns + "Id"),
+                                    Id = personElement.Element(ns + "Id") != null ? personElement.Element(ns + "Id").ToString() : new Random().Next().ToString(),
                                     Name = $"{(string)personElement.Element(ns + "Name").Element(ns + "Given")} {(string)personElement.Element(ns + "Name").Element(ns + "Family")} ",
                                     Place = (int)personResultElement.Element(ns + "Result").Element(ns + "Position"),
                                     Time = (int)personResultElement.Element(ns + "Result").Element(ns + "Time"),
@@ -88,8 +83,8 @@ namespace EYOC_Team_Score.Util
                             {
                                 PersonOrTeam team = new PersonOrTeam()
                                 {
-                                    Id = (int)teamResultElement.Element(ns + "EntryId"),
-                                    Name = (string)teamResultElement.Element(ns + "Name"),
+                                    Id = teamResultElement.Element(ns + "EntryId") != null ? teamResultElement.Element(ns + "EntryId").ToString() : new Random().Next().ToString(),
+                                    Name = (string)teamResultElement.Element(ns + "Name") ?? "Unknown runner",
                                     Place = (int)overallResult.Element(ns + "Position"),
                                     Time = (int)overallResult.Element(ns + "Time"),
                                     Score = 0,
