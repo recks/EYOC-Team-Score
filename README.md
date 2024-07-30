@@ -10,13 +10,13 @@ You can find the latest release here: <https://github.com/recks/EYOC-Team-Score/
 
 ## Quick guide
 
-- You load a result file into the application using the Import Result File button. Multiple files can be imported by repeating. A file can be removed by right-clicking the file in the list of files.
-- When you are satisfied, you click the "Calculate Team Score" and the calculated score can be seen - both as a total and in a detailed view.
-- The scores can be exported both as HTML and spreadsheet using the File menu. You can change whether CSS should be exported with the HTML file using the Tools -> Options menu.
+- You load a result file into the application using the _Import Result File_ button. Multiple files can be imported by repeating. A file can be removed by right-clicking the file in the list of files.
+- When you are satisfied, you click the _Calculate Team Score_ button and the calculated score can be seen - both as a total and in a detailed view.
+- The scores can be exported both as HTML and in a spreadsheet for further managing. This is done using the _File_ menu. You can change whether CSS should be exported with the HTML file using the _Tools -> Options_ menu.
 
 ## How it works
 
-Calculation is based on the application being able to find the *three letter country code* (for each competitor) in the result file. The scores of each competitor is then summmed for each country and the result is shown using the three letter code for the country.
+Calculation is based on the application being able to find the **three letter country code** (for each competitor) in the result file. The scores of each competitor is then summmed for each country and the result is shown using the three letter code for the country.
 
 It tries to find the code by looking at three different places in the `<Organisation>` element of the result file:
 
