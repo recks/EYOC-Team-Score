@@ -6,7 +6,7 @@ The scores are calculated according to IOF EYOC Manual v1.4 2023.
 
 ## Download
 
-You can find the latest relase here: <https://github.com/recks/EYOC-Team-Score/releases>
+You can find the latest release here: <https://github.com/recks/EYOC-Team-Score/releases>
 
 ## Quick guide
 
