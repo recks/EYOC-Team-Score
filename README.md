@@ -4,6 +4,10 @@ This is a Windows application for calculating Team Scores at European Youth Oren
 It uses IOF XML 3.0 result files as input and can export as either HTML or Excel file.
 The scores are calculated according to IOF EYOC Manual v1.4 2023.
 
+## Download
+
+You can find the latest relase here: <https://github.com/recks/EYOC-Team-Score/releases>
+
 ## Quick guide
 
 - You load a result file into the application using the Import Result File button. Multiple files can be imported by repeating. A file can be removed by right-clicking the file in the list of files.
